@@ -10,7 +10,7 @@ layout: post
 [itch-link]: https://acemoisan.itch.io/duck-trust
 [github-link]: https://github.com/Multiplayer-Game-Jam-Team/DuckTrust
 
-{% include embed.html url="https://www.youtube.com/embed/TcFqLKgKv4o" %}
+{% include embed.html url="https://www.youtube.com/embed/QvCMIPptmMI" %}
 
 
 ---
