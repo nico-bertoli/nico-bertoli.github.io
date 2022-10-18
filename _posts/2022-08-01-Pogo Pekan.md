@@ -14,7 +14,7 @@ layout: post
 
 ---
 ## Game description
-In this platformer game, you are a pekan that has to reach the exit of the level by jumping on a jackhammer.
+In this platformer game, you are a pekan that has to reach the exit of the level by jumping on his jackhammer.
 
 The pekan also has 2 abilities:
 * performing a 360 jump allows him to perform a super jump
