@@ -3,12 +3,10 @@ title: "Pogo Pekan"
 layout: post
 ---
 * Created as team project at the Digital Game Bros Academy
-* Try the game [here][itch-link]
-* Source code [here][github-link]
+* [Try the game](https://nicobertoli.itch.io/pogo-pekan)
+* [Source code](https://github.com/Mighty-Pekan/PogoPekan)
 
-[itch-link]: https://nicobertoli.itch.io/pogo-pekan
-[github-link]: https://github.com/Mighty-Pekan/PogoPekan
-
+{% include embed.html url="https://www.youtube.com/embed/r3uRZQ_iafY" %}
 
 ---
 ## Game description
@@ -23,15 +21,15 @@ There are 32 levels in total, in each one you can collect 3 fish: you can find 2
 ---
 ## Team
 **Developers**:
-* Nicolò: https://github.com/nico-bertoli / https://nicobertoli.itch.io/ (gameplay,  DB handling, sounds handling, particles logic)
-* Pietro: https://hcyan.itch.io/ (UI, cameras)
-* Enrico: https://itch.io/profile/kirenil (UI)
-* Alessandro: https://itch.io/profile/chaiko-13 (Testing, pekan animations)
+* Nicolò: [GitHub](https://github.com/nico-bertoli)&emsp;[Itch](https://nicobertoli.itch.io) (gameplay,  DB handling, sounds handling, particles logic)
+* Pietro: [GitHub](https://github.com/orgs/Mighty-Pekan/people/piedg)&emsp;[Itch](https://hcyan.itch.io/) (UI, cameras)
+* Enrico: [GitHub](https://github.com/Kirenil)&emsp;[Itch](https://itch.io/profile/kirenil) (UI)
+* Alessandro: [GitHub](https://github.com/Chaiko113)&emsp;[Itch](https://itch.io/profile/chaiko-13) (Testing, pekan animations)
 
 **Designers**:
-* Marco: https://itch.io/profile/markdrills (also made the music)
-* Kevin: https://itch.io/profile/spatagherru
+* Marco: [GitHub](https://github.com/MarcoTrapani)&emsp;[Itch](https://itch.io/profile/markdrills) (also made the music)
+* Kevin: [GitHub](https://github.com/Spatagherru)&emsp;[Itch](https://itch.io/profile/spatagherru)
 
 **Assets**: 
-* https://itch.io/profile/free-game-assets (tiles and sprites)
-* https://anokolisa.itch.io/ (menu background)
+* [Tiles and sprites](https://itch.io/profile/free-game-assets)
+* [Menu background](https://anokolisa.itch.io/)
