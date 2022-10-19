@@ -10,10 +10,10 @@ ________________________________________________________________________________
 
 [GitHub](https://github.com/nico-bertoli)&emsp;[Itch.io](https://nicobertoli.itch.io/)&emsp;[Linkedin](https://www.linkedin.com/in/nicol%C3%B2-bertoli/)
 
-* Birth: 06/05/1999
-* City: Parma, Italy
-* Phone: (+39) 334-1308720
-* Mail: [nicobertoli.1999@gmail.com](mailto:nicobertoli.1999@gmail.com)
+•&nbsp;Birth: 06/05/1999 &emsp;&emsp;&emsp;&emsp;&emsp;&nbsp; • Phone: (+39) 334-1308720
+•&nbsp;
+
+City: Parma, Italy &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp; •&nbsp;Mail: [nicobertoli.1999@gmail.com](mailto:nicobertoli.1999@gmail.com)
 
 _____________________________________________________________________________________________
 
