@@ -2,10 +2,12 @@
 title: "Duck Trust"
 layout: post
 ---
-* Created for the [One Minute Game Jam 2022](https://itch.io/jam/multiplayer)
-* Jam duration: 9 days
-* [Try the game](https://acemoisan.itch.io/duck-trust)
-* [Source code](https://github.com/Multiplayer-Game-Jam-Team/DuckTrust)
+[Try the game](https://acemoisan.itch.io/duck-trust)&emsp;[Source code](https://github.com/Multiplayer-Game-Jam-Team/DuckTrust)
+
+Created for: [One Minute Game Jam 2022](https://itch.io/jam/multiplayer)
+
+Jam duration: 9 days
+
 
 {% include embed.html url="https://www.youtube.com/embed/QvCMIPptmMI" %}
 
