@@ -2,10 +2,8 @@
 title: "Rocketbuild"
 layout: post
 ---
-[![ML](https://img.shields.io/badge/-Unity%20Game-blueviolet)]()
-
 [Try the game](https://nicobertoli.itch.io/rocket-build)&emsp;[Source code](https://github.com/DBGA-Game-Jam-Team/RocketBuild)
-* Created for an internal jam at Digital Game Bros Academy
+* Created for: internal jam at the game development accademy I'm attending
 * Jam duration: 2 days
 
 {% include embed.html url="https://www.youtube.com/embed/T2oi3t0rGdg" %}
