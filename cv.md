@@ -17,10 +17,10 @@ ________________________________________________________________________________
 
 ## Skills
 ### Core
-- C# &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; - Unity
-- Algorithmic complexity &emsp;&emsp;&emsp; - Data structures
-- Design patterns &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp; - UML
-- SQL &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp; - GitHub
+C# &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; - Unity
+Algorithmic complexity &emsp;&emsp;&emsp; - Data structures
+Design patterns &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp; - UML
+SQL &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp; - GitHub
 
 ### Secondary
 * C++
