@@ -37,31 +37,6 @@ ________________________________________________________________________________
 
 _____________________________________________________________________________________________
 
-## Skills
-### Core
-* C#
-* Unity
-* Algorithmic complexity
-* Data structures
-* Design patterns
-* UML
-* SQL
-* GitHub
-
-### Secondary
-* C++
-* Java
-* Python (AI)
-* Mobile native development
-* Parallel programming
-* Linux
-
-### Others
-* English (≈B2)
-* PC and mechanical keyboards assembling
-
-_____________________________________________________________________________________________
-
 ## Education
 * **Unity** and **Unreal Engine** course at [DBGA](https://dbgameacademy.it/?gclid=Cj0KCQjw9ZGYBhCEARIsAEUXITX95B5XeXWRIvngx2PjNQI0anCqCmpbt65I9uhceTO2PDPpajc_IwwaAgINEALw_wcB) (April 2022 - April 2023)
 * **Bachelor's Degree in Computer Science**, grade: 106 / 110 at [Parma University](https://corsi.unipr.it/en/cdl-info) (September 2018 - March 2022)
