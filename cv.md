@@ -31,8 +31,8 @@ ________________________________________________________________________________
 * Java
 * Python(AI)
 * Mobile native development
-* Linux
 * Parallel programming
+* Linux
 
 ### Others
 * English(≈B2)
