@@ -1,5 +1,5 @@
 ---
-title: "Loyalty cards manager     Android native app"
+title: "Loyalty cards manager (Android native app)"
 layout: post
 ---
 * [Source code](https://github.com/nico-bertoli/MyLoyaltyCards)
