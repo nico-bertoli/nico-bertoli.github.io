@@ -7,6 +7,8 @@ layout: post
 * [Try the game](https://nicobertoli.itch.io/rocket-build)
 * [Source code](https://github.com/DBGA-Game-Jam-Team/RocketBuild)
 
+{% include embed.html url="https://www.youtube.com/embed/T2oi3t0rGdg" %}
+
 
 ---
 ## Game description
