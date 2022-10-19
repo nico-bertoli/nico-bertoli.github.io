@@ -1,6 +1,6 @@
-title: "Nicolò Bertoli Portfolio"
+title: "Nicolò Bertoli"
 author: "Nicolò Bertoli"
-description: "Nicolò Bertoli Portfolio"
+description: "Nicolò Bertoli"
 permalink: /:title/
 lang: "en"
 excerpt_separator: "\n\n\n"
@@ -16,9 +16,11 @@ minimal: false             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
+- {title: "CV", file: "cv.md"}
+- {title: "Portfolio", file: "portfolio.md"}
+
 - {title: Mail, icon: envelope, url: "mailto:nicobertoli.1999@gmail.com"}
 - {title: Github, icon: github, url: "https://github.com/nico-bertoli"}
-- {title: "CV", file: "cv.md"}
 #  - {file: "index.html"}
 #  - {file: "README.md"}
 
