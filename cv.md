@@ -6,7 +6,7 @@ layout: page
 
 _____________________________________________________________________________________________
 
-## General informations
+## General information
 
 [GitHub](https://github.com/nico-bertoli)&emsp;[Itch.io](https://nicobertoli.itch.io/)&emsp;[Linkedin](https://www.linkedin.com/in/nicol%C3%B2-bertoli/)
 
@@ -50,6 +50,6 @@ ________________________________________________________________________________
 _____________________________________________________________________________________________
 
 ## Hobbies
-* Sport (weightlifting, brazilian jiu-jitsu)
-* Videogames (Overwatch/Smite with friends, single player games)
+* Sport (weightlifting, Brazilian jiu-jitsu)
+* Videogames (Overwatch/Smite with friends, single-player games)
 * Podcasts (actuality, biology, history, and others)
