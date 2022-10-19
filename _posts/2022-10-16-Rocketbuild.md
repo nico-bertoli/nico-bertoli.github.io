@@ -3,7 +3,9 @@ title: "Rocketbuild"
 layout: post
 ---
 [Try the game](https://nicobertoli.itch.io/rocket-build)&emsp;[Source code](https://github.com/DBGA-Game-Jam-Team/RocketBuild)
-Created for: internal jam at the game development accademy I'm attending
+
+Created for: internal jam at DBGA.
+
 Jam duration: 2 days
 
 {% include embed.html url="https://www.youtube.com/embed/T2oi3t0rGdg" %}
