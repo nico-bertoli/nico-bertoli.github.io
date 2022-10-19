@@ -6,7 +6,7 @@ layout: post
 * [Try the game](https://nicobertoli.itch.io/pogo-pekan)
 * [Source code](https://github.com/Mighty-Pekan/PogoPekan)
 
-{% include embed.html url="https://www.youtube.com/embed/r3uRZQ_iafY" %}
+{% include embed.html url="https://www.youtube.com/embed/hHi6Xv3CXbA" %}
 
 ---
 ## Game description
