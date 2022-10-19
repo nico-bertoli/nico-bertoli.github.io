@@ -5,8 +5,6 @@ layout: page
 ---
 [GitHub](https://github.com/nico-bertoli)&emsp;[Itch](https://nicobertoli.itch.io/)&emsp;[Linkedin](https://www.linkedin.com/in/nicol%C3%B2-bertoli/)
 
-To the recruitment team,
-
 My name is Nicolò Bertoli, I am a 23 year old computer science and game development enthusiast from Italy.
 
 In April I graduated in computer science at Parma University with excellent results, after that I joined an online academy of game development, Digital Game Bros Academy, where I immediately became really passionate about this field. As I started feeling confident, I began working on personal projects and participating in game jams, which have been particularly good experiences: they always give you new challenges, get you used to cooperating with others and to meeting deadlines.
