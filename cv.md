@@ -29,7 +29,7 @@ ________________________________________________________________________________
 ### Secondary
 * C++
 * Java
-* Python(AI)
+* Python (AI)
 * Mobile native development
 * Parallel programming
 * Linux
