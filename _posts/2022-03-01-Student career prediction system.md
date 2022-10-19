@@ -1,5 +1,5 @@
 ---
-title: "Student career prediction system (machine learning project)"
+title: "Student career prediction system"
 layout: post
 ---
 [Source code](https://github.com/nico-bertoli/StudentCareerPrediction)
