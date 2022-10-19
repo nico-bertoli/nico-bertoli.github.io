@@ -8,7 +8,6 @@ Created for: [One Minute Game Jam 2022](https://itch.io/jam/multiplayer)
 
 Jam duration: 9 days
 
-
 {% include embed.html url="https://www.youtube.com/embed/QvCMIPptmMI" %}
 
 
