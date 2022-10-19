@@ -17,11 +17,11 @@ The game is divided into two phases:
 
 **Phase 1**: Rocket building: Choose the 3 components of your rocket, each of which will affect your stats. When you are ready press you can press the launch button to start phase 2.
 
-![ImmagineBuilding](https://github.com/nico-bertoli/nico-bertoli.github.io/blob/master/_myResources/Rocketbuild/rocket_gameplay_assembly.gif)
+![ImmagineBuilding](https://github.com/nico-bertoli/nico-bertoli.github.io/blob/master/assets/myImages/Rocketbuild/rocket_gameplay_assembly.gif)
 
 **Phase 2**: Drive your rocket avoiding obstacles and shooting enemies, adn reach the best score you can.
 
-![ImmagineSpace](https://github.com/nico-bertoli/nico-bertoli.github.io/blob/master/_myResources/Rocketbuild/rocket_gameplay_space.gif)
+![ImmagineSpace](https://github.com/nico-bertoli/nico-bertoli.github.io/blob/master/assets/myImages/Rocketbuild/rocket_gameplay_space.gif)
 
 ---
 ## Team
