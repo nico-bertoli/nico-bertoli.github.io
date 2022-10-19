@@ -43,6 +43,7 @@ ________________________________________________________________________________
 _____________________________________________________________________________________________
 
 ## Education
+
 | Course                                          | Institution                                 | Period                     |
 |:--------------------------------------------------------:|:----------------------------------------------------:|:--------------------------:|
 |         **Unity** and **Unreal Engine** course           |[DBGA](https://dbgameacademy.it/?gclid=Cj0KCQjw9ZGYBhCEARIsAEUXITX95B5XeXWRIvngx2PjNQI0anCqCmpbt65I9uhceTO2PDPpajc_IwwaAgINEALw_wcB)|April 2022 - April 2023     |
