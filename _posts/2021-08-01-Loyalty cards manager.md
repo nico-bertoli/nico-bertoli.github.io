@@ -8,5 +8,4 @@ layout: post
 
 A Simple loyalty cards manager for Android.
 
-
 ![img1](/assets/myImages/loyalty%20cards%20manager/1.png)
