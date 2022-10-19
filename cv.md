@@ -12,12 +12,19 @@ layout: page
 * City: Parma, Italy
 * Phone: (+39) 334-1308720
 * Mail: [nicobertoli.1999@gmail.com](nicobertoli.1999@gmail.com)
+
 _____________________________________________________________________________________________
 
 ## Skills
 ### Core
 * C#
-* ...
+* Unity
+* Algorithmic complexity
+* Data structures
+* Design patterns
+* UML
+* SQL
+* GitHub
 ### Others
 * C++
 * * ...
