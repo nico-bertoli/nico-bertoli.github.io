@@ -17,6 +17,27 @@ ________________________________________________________________________________
 
 ## Skills
 ### Core
+- C# &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; - Unity
+- Algorithmic complexity &emsp;&emsp;&emsp; - Data structures
+- Design patterns &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp; - UML
+- SQL &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp; - GitHub
+
+### Secondary
+* C++
+* Java
+* Python (AI)
+* Mobile native development
+* Parallel programming
+* Linux
+
+### Others
+* English (≈B2)
+* PC and mechanical keyboards assembling
+
+_____________________________________________________________________________________________
+
+## Skills
+### Core
 * C#
 * Unity
 * Algorithmic complexity
