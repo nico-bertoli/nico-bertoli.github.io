@@ -18,7 +18,7 @@ ________________________________________________________________________________
 _____________________________________________________________________________________________
 
 ## Skills
-### Core
+#### Core
 •&nbsp;C# &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; • Unity
 
 •&nbsp;Algorithmic complexity &emsp;&emsp;&emsp; • Data structures
@@ -27,14 +27,14 @@ ________________________________________________________________________________
 
 •&nbsp;SQL &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp; • GitHub
 
-### Secondary
+#### Secondary
 •&nbsp;C++ &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; • Java
 
 •&nbsp;Python (AI) &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; • Mobile native development
 
 •&nbsp;Parallel programming &emsp;&emsp;&emsp;&nbsp; • Linux
 
-### Others
+#### Others
 •&nbsp;English (≈B2) &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; • PC and mechanical keyboards assembling
 
 _____________________________________________________________________________________________
