@@ -1,8 +1,8 @@
 ---
 title: "Rocketbuild"
 layout: post
----
 [![Made with Unity](https://img.shields.io/badge/Made%20with-Unity-57b9d3.svg?style=flat&logo=unity)](https://www.unity.com)
+---
 
 * Created for an internal jam at Digital Game Bros Academy
 * Jam duration: 2 days
