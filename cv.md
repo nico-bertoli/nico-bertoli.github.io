@@ -3,7 +3,7 @@ title: "CV"
 permalink: "/about/"
 layout: page
 ---
-[GitHub](https://github.com/nico-bertoli)&emsp;[Itch](https://nicobertoli.itch.io/)&emsp;[Linkedin](https://www.linkedin.com/in/nicol%C3%B2-bertoli/)
+[GitHub](https://github.com/nico-bertoli)&emsp;[Itch.io](https://nicobertoli.itch.io/)&emsp;[Linkedin](https://www.linkedin.com/in/nicol%C3%B2-bertoli/)
 
 _____________________________________________________________________________________________
 
