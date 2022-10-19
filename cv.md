@@ -1,5 +1,5 @@
 ---
-title: "Bertoli Nicolò CV"
+title: "CV"
 permalink: "/about/"
 layout: page
 ---
