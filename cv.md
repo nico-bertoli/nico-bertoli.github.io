@@ -1,7 +1,7 @@
 ---
 title: "CV"
 permalink: "/about/"
-layout: page
+layout: default
 ---
 Junior game developer aaa
 
