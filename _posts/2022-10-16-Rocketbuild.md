@@ -4,11 +4,8 @@ layout: post
 ---
 * Created for an internal jam at Digital Game Bros Academy
 * Jam duration: 2 days
-* Try the game [here][itch-link]
-* Source code [here][github-link]
-
-[itch-link]: https://nicobertoli.itch.io/rocket-build
-[github-link]: https://github.com/DBGA-Game-Jam-Team/RocketBuild
+* [Try the game](https://nicobertoli.itch.io/rocket-build)
+* [Source code](https://github.com/DBGA-Game-Jam-Team/RocketBuild)
 
 
 ---
