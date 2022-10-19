@@ -19,7 +19,7 @@ ________________________________________________________________________________
 
 
 ## Skills
-________________________________________________
+__________
 **Core**
 
 •&nbsp;C# &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; • Unity
@@ -30,7 +30,7 @@ ________________________________________________
 
 •&nbsp;SQL &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp; • GitHub
 
-________________________________________________
+__________
 **Secondary**
 
 •&nbsp;C++ &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; • Java
@@ -39,7 +39,7 @@ ________________________________________________
 
 •&nbsp;Parallel programming &emsp;&emsp;&emsp;&nbsp; • Linux
 
-________________________________________________
+__________
 **Others**
 
 •&nbsp;English (≈B2) &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; • PC and mechanical keyboards assembling
