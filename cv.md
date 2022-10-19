@@ -6,11 +6,10 @@ layout: page
 
 _____________________________________________________________________________________________
 
+## General informations
+
 [GitHub](https://github.com/nico-bertoli)&emsp;[Itch.io](https://nicobertoli.itch.io/)&emsp;[Linkedin](https://www.linkedin.com/in/nicol%C3%B2-bertoli/)
 
-_____________________________________________________________________________________________
-
-## General informations
 * Birth: 06/05/1999
 * City: Parma, Italy
 * Phone: (+39) 334-1308720
