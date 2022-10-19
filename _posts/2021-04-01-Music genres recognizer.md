@@ -1,5 +1,5 @@
 ---
-title: "Music genres recognizer&emsp;(machine learning project)"
+title: "Music genres recognizer <div style="text-align: right"> machine learning project </div>"
 layout: post
 ---
 [Source code](https://github.com/nico-bertoli/MusicGenreRecognizer)
