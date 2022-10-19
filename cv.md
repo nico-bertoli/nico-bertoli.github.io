@@ -22,6 +22,6 @@ layout: post
 ---
 ## Education
 bla bla
-===
+---
 ## Hobbies
 bla bla
