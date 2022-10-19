@@ -17,7 +17,7 @@ minimal: false             # use a dark header
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
 - {title: "CV", file: "cv.md"}
-- {title: "Portfolio", file: "index.html"}
+- {title: "Portfolio", file: "portfolio.md"}
 
 - {title: Mail, icon: envelope, url: "mailto:nicobertoli.1999@gmail.com"}
 - {title: Github, icon: github, url: "https://github.com/nico-bertoli"}
