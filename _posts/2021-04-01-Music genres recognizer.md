@@ -2,9 +2,7 @@
 title: "Music genres recognizer"
 layout: post
 ---
-```html
-   <font color="purple"> machine learning project </font>
-```
+{% highlight c %}machine learning project{% endhighlight %}
 [Source code](https://github.com/nico-bertoli/MusicGenreRecognizer)
 
 Convolutional neural network that can classify a 15 seconds audio track in its musical genre with an 80% accuracy (8 musical genres were used).
