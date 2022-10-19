@@ -54,5 +54,5 @@ ________________________________________________________________________________
 
 ## Hobbies
 * Sport (weightlifting, Brazilian jiu-jitsu)
-* Videogames (Overwatch/Smite with friends, single-player games)
-* Podcasts (actuality, biology, history, and others)
+* Videogames
+* Podcasts
