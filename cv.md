@@ -19,7 +19,6 @@ ________________________________________________________________________________
 
 ## Skills
 
-<br />
 ### Core
 
 •&nbsp;C# &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; • Unity
