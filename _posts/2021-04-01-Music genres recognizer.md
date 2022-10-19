@@ -2,7 +2,7 @@
 title: "Music genres recognizer"
 layout: post
 ---
-[![ML](https://img.shields.io/badge/-machine%20learning-success)]()
+[![ML](https://img.shields.io/badge/-machine%20learning%20project-%232dc728)]()
 
 [Source code](https://github.com/nico-bertoli/MusicGenreRecognizer)
 
