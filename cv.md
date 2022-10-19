@@ -25,6 +25,7 @@ ________________________________________________________________________________
 * UML
 * SQL
 * GitHub
+
 ### Secondary
 * C++
 * Java
@@ -32,6 +33,7 @@ ________________________________________________________________________________
 * Mobile native development
 * Linux
 * Parallel programming
+
 ### Others
 * English(≈B2)
 * PC and mechanical keyboards assembling
