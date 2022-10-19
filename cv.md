@@ -43,7 +43,7 @@ ________________________________________________________________________________
 ## Education
 * **Unity** and **Unreal Engine** course at [DBGA](https://dbgameacademy.it/?gclid=Cj0KCQjw9ZGYBhCEARIsAEUXITX95B5XeXWRIvngx2PjNQI0anCqCmpbt65I9uhceTO2PDPpajc_IwwaAgINEALw_wcB) (April 2022 - April 2023)
 * **Bachelor's Degree in Computer Science**, grade: 106 / 110 at [Parma University](https://corsi.unipr.it/en/cdl-info) (September 2018 - March 2022)
-* Diploma at scientific high school [Liceo Ulivi] (https://www.liceoulivi.it/)
+* Diploma at scientific high school [Liceo Ulivi](https://www.liceoulivi.it/)
 
 _____________________________________________________________________________________________
 
