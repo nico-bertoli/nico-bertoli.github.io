@@ -2,8 +2,8 @@
 title: "Music genres recognizer"
 layout: post
 ---
-```diff
-@@ machine learning project
+```html
+   <font color="purple"> machine learning project </font>
 ```
 [Source code](https://github.com/nico-bertoli/MusicGenreRecognizer)
 
