@@ -16,7 +16,7 @@ minimal: false             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-- {title: "CV", file: "cv.md"}
+- {title: "CV", file: "cv.txt"}
 - {title: "Portfolio", file: "portfolio.md"}
 
 - {title: Mail, icon: envelope, url: "mailto:nicobertoli.1999@gmail.com"}
