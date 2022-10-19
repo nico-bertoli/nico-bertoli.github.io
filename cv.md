@@ -28,6 +28,7 @@ ________________________________________________________________________________
 
 •&nbsp;SQL &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp; • GitHub
 
+<br />
 ### Secondary
 
 •&nbsp;C++ &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; • Java
@@ -36,6 +37,7 @@ ________________________________________________________________________________
 
 •&nbsp;Parallel programming &emsp;&emsp;&emsp;&nbsp; • Linux
 
+<br />
 ### Others
 
 •&nbsp;English (≈B2) &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; • PC and mechanical keyboards assembling
