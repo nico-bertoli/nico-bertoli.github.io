@@ -19,11 +19,11 @@ The game is divided into two phases:
 
 **Phase 1**: Rocket building: Choose the 3 components of your rocket, each of which will affect your stats. When you are ready press you can press the launch button to start phase 2.
 
-<img src="https://github.com/DBGA-Game-Jam-Team/Game-DBGA-Jam/blob/main/Screenshots/rocket_gameplay_assembly.gif" width="750">
+<img src="https://github.com/nico-bertoli/nico-bertoli.github.io/blob/master/_myResources/Rocketbuild/rocket_gameplay_assembly.gif" width="750">
 
 **Phase 2**: Drive your rocket avoiding obstacles and shooting enemies, adn reach the best score you can.
 
-<img src="https://github.com/DBGA-Game-Jam-Team/Game-DBGA-Jam/blob/main/Screenshots/rocket_gameplay_space.gif" width="750">
+<img src="https://github.com/nico-bertoli/nico-bertoli.github.io/blob/master/_myResources/Rocketbuild/rocket_gameplay_space.gif" width="750">
 
 ---
 ## Team
