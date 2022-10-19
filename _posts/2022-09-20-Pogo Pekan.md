@@ -9,9 +9,6 @@ layout: post
 [itch-link]: https://nicobertoli.itch.io/pogo-pekan
 [github-link]: https://github.com/Mighty-Pekan/PogoPekan
 
-{% include embed.html url="https://www.youtube.com/embed/r3uRZQ_iafY" %}
-
-
 ---
 ## Game description
 In this platformer game, you are a pekan that has to reach the exit of the level by jumping on his jackhammer.
@@ -37,5 +34,3 @@ There are 32 levels in total, in each one you can collect 3 fish: you can find 2
 **Assets**: 
 * https://itch.io/profile/free-game-assets (tiles and sprites)
 * https://anokolisa.itch.io/ (menu background)
-
-
