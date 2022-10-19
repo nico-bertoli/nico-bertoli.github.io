@@ -27,12 +27,12 @@ The game is divided into two phases:
 
 **Developers**:
 
-* Cristian: [GitHub](https://github.com/xPoke-glitch),[Itch](https://pokedev.itch.io/)
-* Nicolò: [GitHub](https://github.com/nico-bertoli), [Itch](https://nicobertoli.itch.io/)
+* Cristian: [GitHub](https://github.com/xPoke-glitch)&emsp;[Itch](https://pokedev.itch.io/)
+* Nicolò: [GitHub](https://github.com/nico-bertoli)&emsp;[Itch](https://nicobertoli.itch.io/)
 
 **Game Designer**:
-* Gianluca: [GitHub](https://github.com/Vaancj), [Itch](https://gianluca-micella.itch.io/)
-* Michele: [GitHub](https://github.com/MicheleBuonocunto),[Itch](https://bono-game-designer.itch.io/)
-* Francesco: [GitHub](https://github.com/NeoDrood),[Itch](https://francescopradelli.itch.io/)
+* Gianluca: [GitHub](https://github.com/Vaancj)&emsp;[Itch](https://gianluca-micella.itch.io/)
+* Michele: [GitHub](https://github.com/MicheleBuonocunto)&emsp;[Itch](https://bono-game-designer.itch.io/)
+* Francesco: [GitHub](https://github.com/NeoDrood)&emsp;[Itch](https://francescopradelli.itch.io/)
 
 [![Made with Unity](https://img.shields.io/badge/Made%20with-Unity-57b9d3.svg?style=flat&logo=unity)](https://www.unity.com)
