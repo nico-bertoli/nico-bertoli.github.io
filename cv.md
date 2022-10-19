@@ -17,25 +17,23 @@ ________________________________________________________________________________
 
 ## Skills
 ### Core
--&nbsp;C# &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; - Unity
+•&nbsp;C# &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; • Unity
 
--&nbsp;Algorithmic complexity &emsp;&emsp;&emsp; - Data structures
+•&nbsp;Algorithmic complexity &emsp;&emsp;&emsp; • Data structures
 
--&nbsp;Design patterns &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp; - UML
+•&nbsp;Design patterns &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp; • UML
 
--&nbsp;SQL &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp; - GitHub
+•&nbsp;SQL &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp; • GitHub
 
 ### Secondary
-* C++
-* Java
-* Python (AI)
-* Mobile native development
-* Parallel programming
-* Linux
+•&nbsp;C++ &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; • Java
+
+•&nbsp;Python (AI) &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; • Mobile native development
+
+•&nbsp;Parallel programming &emsp;&emsp;&emsp;&nbsp; • Linux
 
 ### Others
-* English (≈B2)
-* PC and mechanical keyboards assembling
+•&nbsp;English (≈B2) &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; • PC and mechanical keyboards assembling
 
 _____________________________________________________________________________________________
 
