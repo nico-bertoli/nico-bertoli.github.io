@@ -1,7 +1,7 @@
 ---
 title: "About Me"
 permalink: "/about/"
-layout: page
+layout: default
 ---
 
 My name is Nicolò Bertoli, I am a 23 year old computer science and game development enthusiast from Italy.
