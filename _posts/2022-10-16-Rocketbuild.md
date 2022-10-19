@@ -28,12 +28,11 @@ The game is divided into two phases:
 
 **Developers**:
 
-* Cristian: https://github.com/xPoke-glitch / https://pokedev.itch.io/
-* Nicolò: https://github.com/nico-bertoli / https://nicobertoli.itch.io/
+* Cristian: [GitHub](https://github.com/xPoke-glitch),[Itch](https://pokedev.itch.io/)
+* Nicolò: [GitHub](https://github.com/nico-bertoli), [Itch](https://nicobertoli.itch.io/)
 
 **Game Designer**:
-
-* Gianluca: https://github.com/Vaancj / https://gianluca-micella.itch.io/
+* [Gianluca]: https://github.com/Vaancj / https://gianluca-micella.itch.io/
 * Michele: https://github.com/MicheleBuonocunto / https://bono-game-designer.itch.io/
 * Francesco: https://github.com/NeoDrood / https://francescopradelli.itch.io/
 
