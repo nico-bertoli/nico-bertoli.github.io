@@ -2,7 +2,6 @@
 title: "Rocketbuild"
 layout: post
 ---
-[![Made with Unity](https://img.shields.io/badge/Made%20with-Unity-57b9d3.svg?style=flat&logo=unity)](https://www.unity.com)
 * Created for an internal jam at Digital Game Bros Academy
 * Jam duration: 2 days
 * Try the game [here][itch-link]
@@ -18,11 +17,11 @@ The game is divided into two phases:
 
 **Phase 1**: Rocket building: Choose the 3 components of your rocket, each of which will affect your stats. When you are ready press you can press the launch button to start phase 2.
 
-<img src="https://github.com/nico-bertoli/nico-bertoli.github.io/blob/master/_myResources/Rocketbuild/rocket_gameplay_assembly.gif" width="750">
+![ImmagineBuilding](https://github.com/nico-bertoli/nico-bertoli.github.io/blob/master/_myResources/Rocketbuild/rocket_gameplay_assembly.gif)
 
 **Phase 2**: Drive your rocket avoiding obstacles and shooting enemies, adn reach the best score you can.
 
-<img src="https://github.com/nico-bertoli/nico-bertoli.github.io/blob/master/_myResources/Rocketbuild/rocket_gameplay_space.gif" width="750">
+![ImmagineSpace](https://github.com/nico-bertoli/nico-bertoli.github.io/blob/master/_myResources/Rocketbuild/rocket_gameplay_space.gif)
 
 ---
 ## Team
@@ -37,3 +36,5 @@ The game is divided into two phases:
 * Gianluca: https://github.com/Vaancj / https://gianluca-micella.itch.io/
 * Michele: https://github.com/MicheleBuonocunto / https://bono-game-designer.itch.io/
 * Francesco: https://github.com/NeoDrood / https://francescopradelli.itch.io/
+
+[![Made with Unity](https://img.shields.io/badge/Made%20with-Unity-57b9d3.svg?style=flat&logo=unity)](https://www.unity.com)
