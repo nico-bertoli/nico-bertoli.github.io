@@ -11,7 +11,7 @@ layout: page
 * Birth: 06/05/1999
 * City: Parma, Italy
 * Phone: (+39) 334-1308720
-* Mail: [nicobertoli.1999@gmail.com](nicobertoli.1999@gmail.com)
+* Mail: [nicobertoli.1999@gmail.com](mailto:nicobertoli.1999@gmail.com)
 
 _____________________________________________________________________________________________
 
