@@ -15,12 +15,8 @@ ________________________________________________________________________________
 
 _____________________________________________________________________________________________
 aaa
-<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+
 <table border="0">
- <tr>
-    <td><b>title</b></td>
-    <td><b>title</b></td>
- </tr>
  <tr>
     <td>
      * aaa
