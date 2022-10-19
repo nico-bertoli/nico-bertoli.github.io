@@ -2,7 +2,6 @@
 layout: default
 title: "Portfolio"
 ---
-questo e' il mio portfolio
 
 {% if site.show_excerpts %}
   {% include home.html %}
