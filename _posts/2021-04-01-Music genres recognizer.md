@@ -1,5 +1,5 @@
 ---
-title: "Music genres recognizer&emsp;&emsp;&emsp;&emsp;&emsp;machine learning project"
+title: "Music genres recognizer ```diff @machine learning project```"
 layout: post
 ---
 [Source code](https://github.com/nico-bertoli/MusicGenreRecognizer)
