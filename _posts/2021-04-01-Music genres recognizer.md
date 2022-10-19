@@ -2,6 +2,7 @@
 title: "Music genres recognizer"
 layout: post
 ---
+"Made with <b style=\"color: #f45;\">&lt;3</b>"
 {% highlight c %}machine learning project{% endhighlight %}
 [Source code](https://github.com/nico-bertoli/MusicGenreRecognizer)
 
