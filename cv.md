@@ -47,7 +47,7 @@ ________________________________________________________________________________
 | Course                                          | Institution                                 | Period                     |
 |:--------------------------------------------------------:|:----------------------------------------------------:|:--------------------------:|
 |         **Unity** and **Unreal Engine** course           |[DBGA](https://dbgameacademy.it/?gclid=Cj0KCQjw9ZGYBhCEARIsAEUXITX95B5XeXWRIvngx2PjNQI0anCqCmpbt65I9uhceTO2PDPpajc_IwwaAgINEALw_wcB)|April 2022 - April 2023     |
-| **Bachelor's Degree in Computer Science**, grade 106/110 |[Parma University](https://corsi.unipr.it/en/cdl-info)|September 2018 - March 2022 |
+| **Bachelor's Degree in Computer Science**, grade:106/110 |[Parma University](https://corsi.unipr.it/en/cdl-info)|September 2018 - March 2022 |
 | Scientific High School Diploma                           | [Liceo Ulivi](https://www.liceoulivi.it/)             |September 2013 - August 2018|
 
 _____________________________________________________________________________________________
