@@ -1,8 +1,7 @@
 ---
-title: "Music genres recognizer"
+title: "Music genres recognizer&emsp;[![ML](https://img.shields.io/badge/-machine%20learning-blueviolet)]()"
 layout: post
 ---
-[![ML](https://img.shields.io/badge/-machine%20learning-blueviolet)]()
 
 [Source code](https://github.com/nico-bertoli/MusicGenreRecognizer)
 
