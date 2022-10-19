@@ -8,7 +8,6 @@ layout: post
 * Created for an internal jam at Digital Game Bros Academy
 * Jam duration: 2 days
 
-
 {% include embed.html url="https://www.youtube.com/embed/T2oi3t0rGdg" %}
 
 
