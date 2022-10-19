@@ -3,7 +3,7 @@ title: "Music genres recognizer"
 layout: post
 ---
 ```diff
-@machine learning project
+@ machine learning project
 ```
 [Source code](https://github.com/nico-bertoli/MusicGenreRecognizer)
 
