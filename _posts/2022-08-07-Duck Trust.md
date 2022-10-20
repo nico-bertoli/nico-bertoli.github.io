@@ -14,7 +14,7 @@ Jam duration: 9 days
 ---
 ## Game description
 Local multiplayer game where you have to cooperate with a friend to keep a lilypad balanced, while tons of objects fall on it.
-Ducks can turn into stone for a while, increasing their weight and friction with the ground
+Ducks can turn into stone for a while, increasing their weight and friction with the ground.
 
 ![immagine spinta](/assets/myImages/DuckTrust/stone.gif)
 
