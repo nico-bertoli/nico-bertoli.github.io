@@ -1,4 +1,4 @@
-title: "Nicolò Bertoli, Unity developer"
+title: "Portfolio Nicolò Bertoli"
 author: "Nicolò Bertoli"
 description: "Nicolò Bertoli"
 permalink: /:title/
@@ -16,8 +16,8 @@ minimal: false             # use a dark header
 # Menu
 
 navigation:                # accepts {file, title, url, icon, sidebaricon}
-- {title: "CV", file: "cv.md"}
-- {title: "Portfolio", file: "index.html"}
+#- {title: "CV", file: "cv.md"}
+#- {title: "Portfolio", file: "index.html"}
 
 - {title: Mail, icon: envelope, url: "mailto:nicobertoli.1999@gmail.com"}
 - {title: Github, icon: github, url: "https://github.com/nico-bertoli"}
