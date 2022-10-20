@@ -21,6 +21,8 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
 
 - {title: Mail, icon: envelope, url: "mailto:nicobertoli.1999@gmail.com"}
 - {title: Github, icon: github, url: "https://github.com/nico-bertoli"}
+- {title: Itch, icon: itch.io, url: "https://nicobertoli.itch.io/"}
+- {title: Itch, icon: itch-io, url: "https://nicobertoli.itch.io/"}
 
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
