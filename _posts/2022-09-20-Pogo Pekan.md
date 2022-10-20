@@ -2,7 +2,7 @@
 title: "Pogo Pekan"
 layout: post
 ---
-[Try the game](https://nicobertoli.itch.io/pogo-pekan)&emsp;[Source code](https://github.com/Mighty-Pekan/PogoPekan)
+[Source code](https://github.com/Mighty-Pekan/PogoPekan)
 
 Created as: team project at Digital Game Bros Academy
 
