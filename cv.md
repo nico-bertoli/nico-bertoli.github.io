@@ -3,7 +3,7 @@ title: "CV"
 permalink: "/about/"
 layout: page
 ---
-
+[CV pdf download](https://github.com/nico-bertoli/nico-bertoli.github.io/blob/master/CV%20Bertoli%20Nicol%C3%B2.pdf)
 _____________________________________________________________________________________________
 
 ## General information
