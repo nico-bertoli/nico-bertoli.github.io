@@ -19,7 +19,7 @@ navigation:                # accepts {file, title, url, icon, sidebaricon}
 #- {title: "CV", file: "cv.md"}
 #- {title: "Portfolio", file: "index.html"}
 
-- {title: "CV download", url: "https://github.com/nico-bertoli/nico-bertoli.github.io/blob/master/CV%20Nicol%C3%B2%20Bertoli.pdf"}
+- {title: "CV", url: "https://github.com/nico-bertoli/nico-bertoli.github.io/blob/master/CV%20Nicol%C3%B2%20Bertoli.pdf"}
 - {title: Mail, icon: envelope, url: "mailto:nicobertoli.1999@gmail.com"}
 - {title: Github, icon: github, url: "https://github.com/nico-bertoli"}
 - {title: Itch, icon: itch-io, url: "https://nicobertoli.itch.io/"}
