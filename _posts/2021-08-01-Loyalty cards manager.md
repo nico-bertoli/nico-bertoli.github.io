@@ -2,7 +2,7 @@
 title: "Loyalty cards manager"
 layout: post
 ---
-[Playstore link](https://play.google.com/store/apps/details?id=com.simple_loyalty_cards_manager.myloyalitycards&gl=IT)
+[Try the app](https://play.google.com/store/apps/details?id=com.simple_loyalty_cards_manager.myloyalitycards&gl=IT)
 
 A Simple loyalty cards manager for Android.
 
