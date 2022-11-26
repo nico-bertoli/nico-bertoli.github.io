@@ -2,7 +2,7 @@
 title: "Duck Trust"
 layout: post
 ---
-[Try the game](https://acemoisan.itch.io/duck-trust)&emsp;[Source code](https://github.com/Multiplayer-Game-Jam-Team/DuckTrust)
+[Try game](https://acemoisan.itch.io/duck-trust)&emsp;[Source code](https://github.com/Multiplayer-Game-Jam-Team/DuckTrust)
 
 Created for: [One Minute Game Jam 2022](https://itch.io/jam/multiplayer)
 
