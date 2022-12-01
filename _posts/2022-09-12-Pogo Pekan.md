@@ -2,7 +2,6 @@
 title: "Pogo Pekan"
 layout: post
 ---
-[Source code](https://github.com/Mighty-Pekan/PogoPekan)
 
 Created as: team project at Digital Game Bros Academy
 
