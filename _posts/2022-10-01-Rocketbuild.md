@@ -2,7 +2,7 @@
 title: "Rocketbuild"
 layout: post
 ---
-[Try game](https://nicobertoli.itch.io/rocket-build)&emsp;[Source code](https://github.com/DBGA-Game-Jam-Team/RocketBuild)
+[Try game](https://nicobertoli.itch.io/rocket-build)
 
 Created for: internal jam at DBGA.
 
