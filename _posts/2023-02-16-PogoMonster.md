@@ -6,7 +6,7 @@ layout: post
 
 Created as personal project
 
-{% include embed.html url="https://www.youtube.com/embed/PjXIWdA33hc" %}
+{% include embed.html url="https://www.youtube.com/embed/0OYxF3Di7KQ" %}
 
 
 ---
