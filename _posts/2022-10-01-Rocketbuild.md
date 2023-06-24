@@ -4,12 +4,10 @@ layout: post
 ---
 [Try game](https://nicobertoli.itch.io/rocket-build)
 
-Created for: internal jam at DBGA.
-
-Jam duration: 2 days
+* Endless runner with crafting mechanics
+* Game jam project
 
 {% include embed.html url="https://www.youtube.com/embed/T2oi3t0rGdg" %}
-
 
 ---
 ## Game description
