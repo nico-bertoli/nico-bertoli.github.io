@@ -4,17 +4,16 @@ layout: post
 ---
 [Try game](https://acemoisan.itch.io/duck-trust)
 
-Created for: [One Minute Game Jam 2022](https://itch.io/jam/multiplayer)
-
-Jam duration: 9 days
+* Local coop game
+* Game jam project ([One Minute Game Jam 2022](https://itch.io/jam/multiplayer))
 
 {% include embed.html url="https://www.youtube.com/embed/QvCMIPptmMI" %}
 
 
 ---
 ## Game description
-Local multiplayer game where you have to cooperate with a friend to keep a lilypad balanced, while tons of objects fall on it.
-Ducks can turn into stone for a while, increasing their weight and friction with the ground.
+* keep the lilypad balanced, while tons of objects fall on it.
+* you can turn into stone for a while, increasing their weight and friction with the ground.
 
 ![immagine spinta](/assets/myImages/DuckTrust/stone.gif)
 
