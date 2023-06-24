@@ -9,6 +9,7 @@ layout: post
 
 {% include embed.html url="https://www.youtube.com/embed/T2oi3t0rGdg" %}
 
+
 ---
 ## Game description
 The game is divided into two phases:
