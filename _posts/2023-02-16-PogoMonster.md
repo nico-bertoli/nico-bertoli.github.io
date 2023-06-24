@@ -12,7 +12,6 @@ layout: post
 
 ---
 ## Description
-A simple rage platformer
 * 3 worlds
 * 24 levels
 * star reward depending on the time taken to pass each level
