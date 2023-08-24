@@ -7,7 +7,7 @@ layout: post
 * Mobile rage platformer
 * Personal project
 
-{% include embed.html url="https://www.youtube.com/embed/0OYxF3Di7KQ" %}
+{% include embed.html url="https://www.youtube.com/embed/EHLrboDXpPI?si=ItuXv2Qy06yN4Ec5" %}
 
 
 ---
