@@ -2,7 +2,7 @@
 title: "Pogo Monster" 
 layout: post
 ---
-[Download](https://play.google.com/store/apps/details?id=com.NicoBertoliGames.PogoMonster)
+[Project Page][(https://play.google.com/store/apps/details?id=com.NicoBertoliGames.PogoMonster](https://nicobertoli.itch.io/pogo-monster))
 
 Personal project
 
