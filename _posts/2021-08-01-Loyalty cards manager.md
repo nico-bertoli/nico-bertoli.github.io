@@ -1,9 +1,0 @@
----
-title: "Loyalty cards manager"
-layout: post
----
-[Try the app](https://play.google.com/store/apps/details?id=com.simple_loyalty_cards_manager.myloyalitycards&gl=IT)
-
-A Simple loyalty cards manager for Android.
-
-![img1](/assets/myImages/loyalty%20cards%20manager/1.png)
