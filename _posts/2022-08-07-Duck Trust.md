@@ -2,10 +2,9 @@
 title: "Duck Trust"
 layout: post
 ---
-[Try game](https://acemoisan.itch.io/duck-trust)
+[Project Page](https://acemoisan.itch.io/duck-trust)
 
-* Local coop game
-* Game jam project ([One Minute Game Jam 2022](https://itch.io/jam/multiplayer))
+Game jam project ([One Minute Game Jam 2022](https://itch.io/jam/multiplayer))
 
 {% include embed.html url="https://www.youtube.com/embed/QvCMIPptmMI" %}
 
