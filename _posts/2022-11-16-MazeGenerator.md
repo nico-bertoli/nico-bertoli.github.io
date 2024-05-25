@@ -1,5 +1,5 @@
 ---
-title: "Procedural Maze Generator System"
+title: "Procedural Maze Generator"
 layout: post
 ---
 [Download Page](https://nicobertoli.itch.io/procedural-maze-generator)
@@ -11,14 +11,10 @@ layout: post
 
 ---
 ## Description
-This program allows you to procedurally generate mazes, using the following algorithms:
-
+Allows you to procedurally generate mazes, using 3 possible algorithms:
 * DFS
 * Kruskal
 * Wilson
 
-Checking "live generation", you can see the algorithm in action.
-
-Maze size can range from 10x10 to 250x250.
-
-After the generation, you can try to escape from the just-generated maze as a chicken.
+Maze size can range from 10x10 to 250x250.\
+After the generation, you can try to escape controlling a chicken.
