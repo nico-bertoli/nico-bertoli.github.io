@@ -2,7 +2,7 @@
 title: "Student career prediction system"
 layout: post
 ---
-[Source code](https://github.com/nico-bertoli/StudentCareerPrediction)
+[Project Page](https://github.com/nico-bertoli/StudentCareerPrediction)
 
 Research of the best model to make 2 predictions about a student in my university course, using exams data:
 - If the student will drop the university by the end of the university year;
