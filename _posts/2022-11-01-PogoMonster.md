@@ -2,7 +2,7 @@
 title: "Pogo Monster" 
 layout: post
 ---
-[Visit Page](https://nicobertoli.itch.io/pogo-monster)
+[Project Page](https://nicobertoli.itch.io/pogo-monster)
 
 Personal project
 
