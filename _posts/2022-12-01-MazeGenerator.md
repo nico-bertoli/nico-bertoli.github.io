@@ -2,7 +2,7 @@
 title: "Procedural Maze Generator"
 layout: post
 ---
-[Visit Page](https://nicobertoli.itch.io/procedural-maze-generator)
+[Project Page](https://nicobertoli.itch.io/procedural-maze-generator)
 
 Personal project
 
