@@ -4,14 +4,14 @@ layout: post
 ---
 [Download Page](https://nicobertoli.itch.io/procedural-maze-generator)
 
-* Personal project
+Personal project
 
 {% include embed.html url="https://www.youtube.com/embed/n9eEhOxUEy0" %}
 
 
 ---
-## Description
-Allows you to procedurally generate mazes, using 3 possible algorithms:
+##
+Supports 3 possible maze generation algorithms:
 * DFS
 * Kruskal
 * Wilson
