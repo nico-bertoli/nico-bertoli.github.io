@@ -2,10 +2,9 @@
 title: "Rocketbuild"
 layout: post
 ---
-[Try game](https://nicobertoli.itch.io/rocket-build)
+[Project Page](https://nicobertoli.itch.io/rocket-build)
 
-* Endless runner with crafting mechanics
-* Game jam project
+Game jam project
 
 {% include embed.html url="https://www.youtube.com/embed/T2oi3t0rGdg" %}
 
