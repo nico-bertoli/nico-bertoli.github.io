@@ -11,10 +11,9 @@ Personal project
 
 ---
 ##
-Supports 3 possible maze generation algorithms:
-* DFS
-* Kruskal
-* Wilson
+This program allows you to generate a maze:
 
-Maze size can range from 10x10 to 250x250.\
-After the generation, you can try to escape controlling a chicken.
+- Size can be customized.
+- 3 algorithms can be used: Randomized DFS, Kruskal's alg, Wilson's alg.
+"Live generation" allows you to see the algorithms in action, but constraints you to smaller mazes.
+- "Not live generation" allows you to generate larger mazes (note: for huge mazes, a few tens of seconds may be required to complete the generation, depending on your hardware)
