@@ -12,4 +12,5 @@ layout: post
 * Portals implemented via shader, weapons and lights can interact with them
 * Ghosts AIs match the ones of the original game
 
-[Itch Page](https://nicobertoli.itch.io/pacman-but-fps)
+
+[Visit Itch Page](https://nicobertoli.itch.io/pacman-but-fps)
