@@ -4,7 +4,7 @@ layout: post
 ---
 <!--[Project Page](https://acemoisan.itch.io/duck-trust)-->
 
-\[Game jam project] ([One Minute Game Jam 2022](https://itch.io/jam/multiplayer))
+\[Game Jam Project] ([One Minute Game Jam 2022](https://itch.io/jam/multiplayer))
 
 {% include embed.html url="https://www.youtube.com/embed/QvCMIPptmMI" %}
 
