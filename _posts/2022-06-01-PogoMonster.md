@@ -9,7 +9,6 @@ Personal project
 {% include embed.html url="https://www.youtube.com/embed/EHLrboDXpPI?si=ItuXv2Qy06yN4Ec5" %}
 
 
-
 ---
 * 3 worlds
 * 24 levels
