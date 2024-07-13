@@ -16,4 +16,5 @@ layout: post
 
 • Turning off "Live generation" you can generate larger mazes at higher  speed
 
+
 [Visit Itch Page](https://nicobertoli.itch.io/maze-generator)
