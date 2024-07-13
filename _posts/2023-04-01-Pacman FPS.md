@@ -2,7 +2,7 @@
 title: "Pacman FPS"
 layout: post
 ---
-\[Personal project]
+\[Personal Project]
 
 {% include embed.html url="https://www.youtube.com/embed/1fJteeDLdZQ?si=6ByEz3VRIEP1lK-W" %}
 
