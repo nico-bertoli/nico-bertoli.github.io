@@ -2,8 +2,7 @@
 title: "Procedural Maze Generator"
 layout: post
 ---
-[Visit Page](https://nicobertoli.itch.io/maze-generator)
-
+<!--[Visit Page](https://nicobertoli.itch.io/maze-generator)-->
 \[Personal Project]
 
 {% include embed.html url="https://www.youtube.com/embed/gEkphmxIJFs?si=xmx1xTNVMObcXUTd" %}
