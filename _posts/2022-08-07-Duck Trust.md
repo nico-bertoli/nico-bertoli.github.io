@@ -16,4 +16,5 @@ layout: post
 
 ![immagine spinta](/assets/myImages/DuckTrust/stone.gif)
 
-[Project Page](https://acemoisan.itch.io/duck-trust)
+
+[Visit Itch Page](https://acemoisan.itch.io/duck-trust)
