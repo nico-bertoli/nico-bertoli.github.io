@@ -1,6 +1,6 @@
 ---
 title: "Procedural Maze Generator"
-layout: post
+layout: page
 ---
 [Project Page](https://nicobertoli.itch.io/maze-generator)
 
