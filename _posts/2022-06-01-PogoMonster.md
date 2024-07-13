@@ -12,5 +12,6 @@ layout: post
 * 24 levels
 * you can collect stars depending on the time taken to pass each level
 * stars can be used to customize your jumping monster
-* 
-[Project Page](https://nicobertoli.itch.io/pogo-monster)
+
+  
+[Visit Itch Page](https://nicobertoli.itch.io/pogo-monster)
