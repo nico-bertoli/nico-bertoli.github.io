@@ -9,13 +9,10 @@ Personal project
 {% include embed.html url="https://www.youtube.com/embed/gEkphmxIJFs?si=xmx1xTNVMObcXUTd" %}
 
 
----
-This program allows you to generate a maze:
+• Maze size can be customized
 
-• Size can be customized.
+• Generation can occur trough three algorithms: Randomized DFS, Kruskal's alg, Wilson's alg.
 
-• 3 algorithms can be used: Randomized DFS, Kruskal's alg, Wilson's alg.
+• Turning on "Live generation" you can see the algorithms in action
 
-• "Live generation" allows you to see the algorithms in action, but constraints you to smaller mazes
-
-• "Not live generation" allows you to generate larger mazes (note: for huge mazes, a few tens of seconds may be required to complete the generation, depending on your hardware)
+• Turning off "Live generation" you can generate larger mazes at higer speed
