@@ -8,7 +8,7 @@ Personal project
 
 {% include embed.html url="https://www.youtube.com/embed/gEkphmxIJFs?si=xmx1xTNVMObcXUTd" %}
 
-##
+
 ---
 This program allows you to generate a maze:
 
