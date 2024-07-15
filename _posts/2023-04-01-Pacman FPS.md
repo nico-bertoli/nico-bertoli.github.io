@@ -4,7 +4,7 @@ layout: post
 ---
 \[Personal Project]
 
-{% include embed.html url="https://www.youtube.com/embed/1fJteeDLdZQ?si=6ByEz3VRIEP1lK-W" %}
+{% include embed.html url="https://www.youtube.com/embed/ujgIre684P4?si=zF0CYBrDCq4janen" %}
 
 
 ---
