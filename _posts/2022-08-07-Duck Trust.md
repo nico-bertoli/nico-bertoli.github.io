@@ -10,11 +10,8 @@ layout: post
 
 
 ---
-## Game description
-* keep the lilypad balanced, while tons of objects fall on it.
-* you can turn into stone for a while, increasing their weight and friction with the ground.
-
-![immagine spinta](/assets/myImages/DuckTrust/stone.gif)
-
+* Placed 6th out of 110
+* you and the other player must keep the lilypad balanced, while tons of objects fall on it.
+* ducks can turn into stone, increasing their weight temporarily.
 
 [Visit Itch Page](https://acemoisan.itch.io/duck-trust)
