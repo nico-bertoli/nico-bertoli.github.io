@@ -1,0 +1,300 @@
+/* html {
+  font-size: 14px;
+} */
+
+@media (min-width: 768px) {
+  html {
+    font-size: 20px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+/*------------------------------------- general */
+
+body {
+  color: white;
+  background-color: #212228;
+
+  /* date text: 9b9b9b */
+  /* light background: 363844 */
+  /* very light background 4e5269 */
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  padding-bottom: 50px;
+  margin: 0 auto; /* Centers the body element horizontally */
+  text-align: center; /* Centers the text inside the body */
+  width: 70%; /* Default width for larger screens */
+  max-width: 2000; /* Maximum width to prevent it from becoming too large */
+  box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+}
+
+.distributeHorizontal {
+  justify-content: space-between;
+  align-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.iconsSection {
+  background-color: #363844;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top:15px;
+  padding-bottom: 15px;
+  border-radius: 15px;
+  border:0px;
+  /* border: 2px solid white; */
+}
+
+/*------------------------------------- title */
+
+.title {
+  font-size: 2.4em;
+  font-weight: bold;
+  margin-bottom: 0.2rem;
+  margin-top: 5rem;
+  text-align: center;
+  font-weight: 700; 
+}
+
+.subtitle {
+  margin-top: 0px;
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+  text-align: center;
+  font-weight: 500; 
+}
+
+/*------------------------------------- icons */
+.icon {
+  display: inline-block;
+  width: 23px; /* Custom size for icons */
+  height: 23px; /* Custom size for icons */
+  vertical-align: middle; /* Align icons vertically in the middle */
+  margin-right: 4px; /* Space between icon and text */
+  padding-top:2px;
+}
+
+.locationIcon {
+  width: 19px;
+  height: 23px;
+  margin-right: 4px;
+  padding-top:2px;
+}
+
+.educationIcon{
+  width: 26px;
+  height: 26px;
+  margin-right: 4px;
+  padding-top:2px;
+}
+
+.portfolioIcon{
+  width: 24px;
+  height: 26px;
+  margin-right: 4px;
+  padding-top:5px;
+}
+
+.iconText {
+  display: inline; /* Keep text on the same line */
+}
+
+.allignContentTextAndIcon {
+  white-space: nowrap; /* prevents text from going on new line */
+  color: white;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  margin:0;
+}
+
+.portfolio-two-columns-dotlist {
+  list-style-type: disc;
+  column-count: 1; 
+  padding-left: 25px;
+}
+
+/* ------------------------ hyperlinks */
+
+a {
+  color: #5c8fff; 
+  text-decoration:underline;
+  text-decoration-thickness: 1px;
+}
+a:hover {
+  color: #3b6bcc;
+  text-decoration: none;
+  text-decoration:underline;
+  text-decoration-thickness: 1px;
+}
+
+/* ------------------------- Navbar*/
+
+.navbar {
+  background-color: #363844;
+  overflow: hidden;
+  width: 100%;
+  padding: 8px 20px; /* Vertical and horizontal padding */
+  position: fixed; /* Make the navbar fixed at the top */
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: flex; /* Align elements horizontally */
+  align-items: center; /* Center items vertically */
+}
+
+.navbar a {
+  display: flex; /* Flex container for proper alignment */
+  align-items: center; /* Center text vertically within each link */
+  color: white;
+  text-align: center;
+  padding: 11px 16px; /* Size of items */
+  text-decoration: none;
+  background: #212228;
+  border-radius: 15px;
+  margin-right: 10px; /* Spacing between items */
+  font-size: 20px; /* Increase font size */
+}
+
+.navbar p {
+  margin: 0; /* Remove default margins from <p> */
+  margin-right: 20px; /* Horizontal padding */
+  font-size: 20px; /* Increase font size */
+  color: white; /* Ensure text color is visible */
+}
+
+.navbar a:hover {
+  background-color: rgba(225, 230, 255, 0.3);
+  border-radius: 15px;
+  transition: all 0.3s ease;
+}
+
+/*------------------------------------- resize window*/
+
+@media (max-width: 99999px) {
+  body {
+    width: 55%; /* Width when screen size is less than 99999 */
+  }
+}
+@media (max-width: 2270px) {
+  body {
+    width: 55%;
+  }
+}
+@media (max-width:2170px) {
+  body {
+    width: 60%;
+  }
+} 
+@media (max-width:2000px) {
+  body {
+    width: 65%;
+  }
+} 
+@media (max-width:1800px) {
+  body {
+    width: 70%;
+  }
+} 
+
+@media (max-width:1675px) {
+  body {
+    width: 75%;
+  }
+} 
+@media (max-width:1600px) {
+  body {
+    width: 80%;
+  }
+} 
+@media (max-width:1500px) {
+  body {
+    width: 85%;
+  }
+} 
+@media (max-width:1400px) {
+  body {
+    width: 90%;
+  }
+} 
+
+@media (max-width:1300px) {
+  body {
+    width: 95%;
+  }
+} 
+
+/*------------------------------------- portfolio*/
+
+    gameName{
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+
+    .titleContainer {
+        justify-content: space-between;
+        align-items: baseline; 
+        display: flex;
+        flex-wrap: wrap;
+        padding:10px;
+    }
+
+    .footerContainer {
+        padding-top: 25px;
+        padding-bottom: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 40px; /* Adjust the value as per the required space */
+}
+
+    .dateText {
+        font-size: 0.9rem;
+        color: #9b9b9b;
+        padding-left:10px;
+        padding-right: 20px;
+        margin-top: 0; 
+        margin-bottom: 0;
+    }
+
+    hr.customLine{
+    border: none; /* Remove the default border */
+
+    /* very light background version */
+    border-top: 2px solid #4e5269; 
+    background-color: #4e5269;
+    
+    height: 1px;
+    }
+
+    .videoContainer
+    {
+        position: relative; 
+        padding-bottom: 56.25%; 
+        height: 0; 
+        overflow: hidden; 
+        max-width: 100%; 
+        background: #000; 
+        border-radius: 15px;
+    }
+
+    .videoFrame
+    {
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        width: 100%; 
+        height: 100%; 
+        border-radius: 15px;
+    }
