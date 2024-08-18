@@ -62,8 +62,8 @@ body {
 /*------------------------------------- icons */
 .icon {
   display: inline-block;
-  width: 18px; /* Custom size for icons */
-  height: 18px; /* Custom size for icons */
+  width: 19px; /* Custom size for icons */
+  height: 19px; /* Custom size for icons */
   vertical-align: middle; /* Align icons vertically in the middle */
   margin-right: 4px; /* Space between icon and text */
 }
@@ -81,8 +81,8 @@ body {
 }
 
 .locationIcon {
-  width: 14px;
-  height: 18px;
+  width: 15px;
+  height: 19px;
   margin-right: 4px;
 }
 
