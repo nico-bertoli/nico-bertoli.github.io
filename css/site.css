@@ -23,7 +23,9 @@ body {
   color: white;
   background-color: #212228;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  padding: 70px;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-bottom: 30px;
 }
 
 .distributeHorizontal {
@@ -39,6 +41,7 @@ body {
   font-size: 2.2rem;
   font-weight: bold;
   margin-bottom: 0.2rem;
+  margin-top: 5rem;
   text-align: center;
 }
 
@@ -81,3 +84,45 @@ a {
   color: #5c8fff; /* Change this to your preferred color */
   text-decoration: none; /* Optional: Remove underline */
 }
+
+/* ------------------------- Navbar*/
+
+.navbar {
+  background-color: #363844;
+  overflow: hidden;
+  width: 100%;
+  padding: 6px 10px; /* Vertical and horizontal padding */
+  position: fixed; /* Make the navbar fixed at the top */
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: flex; /* Align elements horizontally */
+  align-items: center; /* Center items vertically */
+}
+
+.navbar a {
+  display: flex; /* Flex container for proper alignment */
+  align-items: center; /* Center text vertically within each link */
+  color: white;
+  text-align: center;
+  padding: 10px 15px; /* Size of items */
+  text-decoration: none;
+  background: #212228;
+  border-radius: 4px;
+  margin-right: 10px; /* Spacing between items */
+  font-size: 20px; /* Increase font size */
+}
+
+.navbar p {
+  margin: 0; /* Remove default margins from <p> */
+  padding: 0 10px; /* Horizontal padding */
+  font-size: 20px; /* Increase font size */
+  color: white; /* Ensure text color is visible */
+}
+
+.navbar a:hover {
+  background-color: rgba(225, 230, 255, 0.3);
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
