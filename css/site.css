@@ -91,7 +91,7 @@ a {
   background-color: #363844;
   overflow: hidden;
   width: 100%;
-  padding: 6px 10px; /* Vertical and horizontal padding */
+  padding: 8px 20px; /* Vertical and horizontal padding */
   position: fixed; /* Make the navbar fixed at the top */
   top: 0;
   left: 0;
@@ -105,7 +105,7 @@ a {
   align-items: center; /* Center text vertically within each link */
   color: white;
   text-align: center;
-  padding: 10px 15px; /* Size of items */
+  padding: 9px 15px; /* Size of items */
   text-decoration: none;
   background: #212228;
   border-radius: 4px;
@@ -115,7 +115,7 @@ a {
 
 .navbar p {
   margin: 0; /* Remove default margins from <p> */
-  padding: 0 10px; /* Horizontal padding */
+  margin-right: 20px; /* Horizontal padding */
   font-size: 20px; /* Increase font size */
   color: white; /* Ensure text color is visible */
 }
