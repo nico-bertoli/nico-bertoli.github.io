@@ -23,10 +23,45 @@ body {
   color: white;
   background-color: #212228;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  padding-left: 70px;
-  padding-right: 70px;
   padding-bottom: 30px;
+  margin: 0 auto; /* Centers the body element horizontally */
+  text-align: center; /* Centers the text inside the body */
+  width: 70%; /* Default width for larger screens */
+  max-width: 2000; /* Maximum width to prevent it from becoming too large */
+  box-sizing: border-box; /* Includes padding and border in the element's total width and height */
 }
+
+@media (max-width: 99999px) {
+  body {
+    width: 50%; /* Width when screen size is less than 800px */
+  }
+}
+@media (max-width: 1900px) {
+  body {
+    width: 60%;
+  }
+}
+ @media (max-width: 1600px) {
+  body {
+    width: 70%;
+  }
+}
+@media (max-width: 1400px) {
+  body {
+    width: 80%; 
+  }
+} 
+@media (max-width: 1200px) {
+  body {
+    width: 90%; 
+  }
+} 
+@media (max-width: 1060px) {
+  body {
+    width: 96%; 
+  }
+} 
+
 
 .distributeHorizontal {
   justify-content: space-between;
