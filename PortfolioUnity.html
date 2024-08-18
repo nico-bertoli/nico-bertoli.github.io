@@ -28,7 +28,7 @@
         <!-- Title -->
         <!-- overriding top padding! -->
         <div class="titleContainer"> 
-            <h4>Procedural Maze Generator</h4>
+            <gameName>Procedural Maze Generator</gameName>
             <p class="dateText">Jun 2024</p>
         </div>
 
@@ -53,7 +53,6 @@
             <!-- visit page -->
             <div style="padding-left:30px;">
                 <img src="images/img-itch.png" class="icon">
-                @* <span class="iconText""> Project Page </span> *@
                 <a href="https://nicobertoli.itch.io/maze-generator"> <span class="iconText">Visit Page </a></span>
             </div>
         </div>
@@ -65,7 +64,7 @@
         <!-------------------------------------------------------------------- Pacman FPS -->
         <!-- Title -->
         <div class="titleContainer">
-            <h4>Pacman FPS</h4>
+            <gameName>Pacman FPS</gameName>
             <p class="dateText">Apr 2023</p>
         </div>
 
@@ -101,7 +100,7 @@
         <!-------------------------------------------------------------------- Duck Trust -->
         <!-- Title -->
         <div class="titleContainer">
-            <h4>Duck Trust</h4>
+            <gameName>Duck Trust</gameName>
             <p class="dateText">Aug 2022</p>
         </div>
 
@@ -139,7 +138,7 @@
         <!-------------------------------------------------------------------- Rognoid -->
         <!-- Title -->
         <div class="titleContainer">
-            <h4>Rognoid</h4>
+            <gameName>Rognoid</gameName>
             <p class="dateText">Jul 2022</p>
         </div>
 
@@ -174,7 +173,7 @@
         <!-------------------------------------------------------------------- Pogo Monster -->
         <!-- Title -->
         <div class="titleContainer">
-            <h4>Pogo Monster</h4>
+            <gameName>Pogo Monster</gameName>
             <p class="dateText">Nov 2022</p>
         </div>
 
@@ -210,7 +209,7 @@
         <!-------------------------------------------------------------------- Pumpking -->
         <!-- Title -->
         <div class="titleContainer">
-            <h4>Pumpking</h4>
+            <gameName>Pumpking</gameName>
             <p class="dateText">Oct 2022</p>
         </div>
 
@@ -256,6 +255,11 @@
 
 <style>
 
+    gameName{
+        font-size: 25px;
+        font-weight: 500;
+    }
+
     .titleContainer {
         justify-content: space-between;
         align-items: baseline; 
@@ -287,8 +291,13 @@
     }
 
     hr.customLine {
-        height: 2px;
-        color:white;
-    }
+    border: none; /* Remove the default border */
+
+    /* very light background version */
+    border-top: 2px solid #4e5269; 
+    background-color: #4e5269;
+    
+    height: 1px;
+}
 
 </style>
