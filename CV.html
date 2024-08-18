@@ -63,13 +63,12 @@
         </div>
     </div>
     
-    
     <section class="section" style=" display: flex;">
     
         <div class="column">
     
             <!-- Core skills -->
-            <h5>Core</h5>
+            <h2 class="skillType">Core</h2>
             <ul>
                 <li>C#, Unity</li>
                 <li>C++</li>
@@ -81,7 +80,7 @@
             <br />
     
             <!-- Soft skills -->
-            <h5>Soft</h5>
+            <h2 class="skillType">Soft</h2>
             <ul>
                 <li>Teamwork</li>
                 <li>Communication</li>
@@ -92,7 +91,7 @@
     
         <!-- Secondary skills -->
         <div class="column">
-            <h5>Secondary</h5>
+            <h2 class="skillType">Secondary</h2>
             <ul>
                 <li>Unreal Engine</li>
                 <li>Multithreading</li>
@@ -194,17 +193,10 @@
 <style>
 
     /* ------------------------ text size */
-
-    .paragraphTitle {
-        font-size: 1.2rem;
-    }
-
-    .baseText {
-        font-size: 1.2rem;
-    }
-
-    body {
-        /*font-family: 'Roboto', sans-serif;*/
+    
+    .sectionTitle{
+        font-size: 1.5rem;
+        margin-top:40px;   
     }
 
     /* ------------------------ sections */
@@ -223,7 +215,11 @@
     .column {
         flex: 1;
         padding-left: 20px;
-        padding-top:15px;
+        text-align: left;
+    }
+
+    .skillType{
+        margin-top: 10px;
     }
 
     /* ---------------------------------------------- Table --*/
@@ -245,10 +241,6 @@
 
     tbody {
         background-color: #212228;
-    }
-
-    .sectionTitle{
-        margin-top:40px;
     }
 
 </style>
