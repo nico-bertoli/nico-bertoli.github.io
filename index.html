@@ -130,30 +130,31 @@
     }
 
     .image-button {
-        background-color: black;
-        position: relative;
-        display: inline-block;
-        padding: 0px;
-        cursor: pointer;
-        border-radius: 8px;
-        overflow: hidden;
-        text-align: center;
-        font-weight: bold;
-        color: white; /* text color */
-        height: 400px; /* Set a fixed height for the button */
-        width: 48.5%; /* Make the button expand horizontally */
-        transition: all 0.3s ease;
-        border: 4px solid #4e5269; /*light background color*/
-    }
+    background-color: black;
+    position: relative;
+    display: inline-block;
+    padding: 0px;
+    cursor: pointer;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    font-weight: bold;
+    color: white; /* text color */
+    height: 400px; /* Set a fixed height for the button */
+    width: 48.5%; /* Make the button expand horizontally */
+    transition: all 0.3s ease;
+    border: 4px solid #4e5269; /*light background color*/
+}
 
-    .image-button img {
-        display: block;
-        width: 100%;
-        height: calc(100% - 45px); /* Adjust the height to accommodate the text */
-        object-fit: cover;
-        opacity: 0.8; /*needed for effect to work */
-        /* filter: blur(2px); */
-    }
+.image-button img {
+    display: block;
+    width: 100%;
+    height: calc(100% - 45px); /* Adjust the height to accommodate the text */
+    object-fit: cover;
+    object-position: top; /* Align the top of the image with the top of the container */
+    opacity: 0.8; /*needed for effect to work */
+    /* filter: blur(2px); */
+}
 
     .image-button span {
         display: block;
