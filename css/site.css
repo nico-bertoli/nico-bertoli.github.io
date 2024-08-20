@@ -76,6 +76,12 @@ body {
   margin-right: 4px;
 }
 
+.educationIcon{
+  width: 26px;
+  height: 26px;
+  margin-right: 4px;
+}
+
 .iconText {
   display: inline; /* Keep text on the same line */
 }
