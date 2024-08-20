@@ -104,7 +104,6 @@
     </div>
     
     <section class="section" style=" display: flex; padding-top: 10px;">
-        
         <div class="column">
             <!-- Core skills -->
             <skillType>Core</skillType>
@@ -150,57 +149,60 @@
         </div>
     </div>    
     
+    <!-- columns titles-->
     <section class="section">
         <table>
             <thead>
                 <tr>
-                    <th>Company</th>
-                    <th>Role</th>
                     <th>Period</th>
+                    <th>Role</th>
+                    <th>Company</th>
                 </tr>
             </thead>
-            <tbody>
-                <tr>
-                    <td>
-                        <a href="https://www.miniclip.com/">Miniclip</a>
-                    </td>
-                    <td>C# / Unity Developer</td>
-                    <td>March 2023 - Current</td>
-                </tr>
-                <tr>
-                    <td colspan="3", style="text-align: left; padding-left: 20px; padding-top: 0px; margin-top: 0px;">
-                        <hr class="customLineLight" />
-                    </td>
-                </tr>
-                <tr>
-                    <td colspan="3", class="companyDetails">
-                        <p class="companyDetailsTitle">Details:<p>
-                            <ul>
-                                <li>Contributed to the development of <a href="https://play.google.com/store/search?q=battle%20rivals&c=apps&hl=en">Battle Rivals</a> (currently in soft launch)</li>
-                                <li>Team of around 10 people, including 4 developers.</li>
-                                <li>Implemented and integrated new game features.</li>
-                                <li>Debugging</li>
-                                <li>Managed server communication</li>
-                                <li>Collaborated with server, game tech, QA and art departments</li>
-                                <li>Managed version control (Bitbucket, Fork)</li>
-                            </ul>
-                    </td>
-                </tr>
-                
-                <!-- <tr>
-                    <td colspan="3", style="text-align: left; padding-left: 20px;">
-                        <hr class="customLine" />
-                    </td>
-                </tr> -->
-                <!-- <tr>
-                    <td>
-                        <a href="https://www.miniclip.com/">Miniclip</a>
-                    </td>
-                    <td>C# / Unity Developer</td>
-                    <td>March 2023 - Current</td>
-                </tr> -->
-            </tbody>
         </table>
+
+        <section class="section", style="background-color: #212228; margin:2px">
+            <table>
+                <thead>
+                    <tr>
+                        <td>March 2023 - Current</td>
+                        <td>Unity & C# Developer</td>
+                        <td>Miniclip</td>
+                    </tr>
+                </thead>
+            </table>
+            <hr class="customLine"/>
+
+            <p class="companyDetailsTitle">Details:<p>
+                <section style=" display: flex;">
+                    <div class="column">
+                        <!-- Core skills -->
+                        <ul>
+                            <li>Development of Battle Rivals (currently in soft launch)</li>
+                            <li>Implemented and integrated new game features.</li>
+                            <li>Debugging</li>
+                        </ul>                
+                    </div>
+                
+                    <!-- Secondary skills -->
+                    <div class="column">
+                        <ul>
+                            <li>Worked on C++ code</li>
+                            <li>Server communication (Protobuffer)</li>
+                            <li>Version control (Bitbucket and Fork)</li>
+                        </ul>
+                    </div>
+                </section>
+                
+                
+
+            
+<!-- 
+Managed server communication
+Collaborated with server, game tech, QA and art departments              
+-->
+
+        </section>
     </section>
     
     <!--------------------------------- Education -->
@@ -284,9 +286,11 @@
         background-color: #363844;
         padding: 0px;
         gap: 20px;
-        border-radius: 5px;
+        border-radius: 15px;
         border: 3px solid #363844;
-        margin-top: 5px
+        margin-top: 5px;
+        text-align: left;
+        
     }
 
     /* ------------------------ skills columns */
@@ -303,11 +307,20 @@
         font-weight: 500;
     }
 
+    /* ---------------------------------------------- Workd Experience --*/
+
+    .companyDetailsTitle{
+        font-weight: bold; 
+        padding-top: 0px; 
+        margin-top: 0px;
+        padding-left: 20px;
+    }
+
     /* ---------------------------------------------- Table --*/
     table {
         width: 100%; /* Makes the table expand to the full width of its container */
-        border-spacing: 0; /* Ensures that there is no space between the borders of the cells */
-        border-radius: 5px;
+        border-spacing: 0px; /* Ensures that there is no space between the borders of the cells */
+        border-radius: 15px;
         justify-content: space-between;
         align-content: center;
         table-layout: fixed;
@@ -328,17 +341,18 @@
         background-color: #212228;
     }
 
-    .companyDetails{
-        text-align: left; 
-        padding-left: 20px;
-        padding-top: 0px;
-        margin-top: 0px;
+    /* ---------------------------------------------- Custom Line --*/
+
+    hr.customLine {
+    border: none; /* Remove the default border */
+
+    /* very light background version */
+    border-top: 2px solid #363844; 
+    background-color: #363844;
+    
+    height: 4px;
     }
 
-    .companyDetailsTitle{
-        font-weight: bold; 
-        padding-top: 0px; 
-        margin-top: 0px;
-    }
+
 
 </style>
