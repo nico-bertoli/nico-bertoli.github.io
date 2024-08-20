@@ -27,7 +27,7 @@ body {
 
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
-  padding-bottom: 30px;
+  padding-bottom: 50px;
   margin: 0 auto; /* Centers the body element horizontally */
   text-align: center; /* Centers the text inside the body */
   width: 70%; /* Default width for larger screens */
@@ -42,10 +42,20 @@ body {
   flex-wrap: wrap;
 }
 
+.iconsSection {
+  background-color: #363844;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top:15px;
+  padding-bottom: 15px;
+  border-radius: 5px;
+  /* border: 2px solid white; */
+}
+
 /*------------------------------------- title */
 
 .title {
-  font-size: 2.2rem;
+  font-size: 2.4em;
   font-weight: bold;
   margin-bottom: 0.2rem;
   margin-top: 5rem;
@@ -68,18 +78,21 @@ body {
   height: 23px; /* Custom size for icons */
   vertical-align: middle; /* Align icons vertically in the middle */
   margin-right: 4px; /* Space between icon and text */
+  padding-top:2px;
 }
 
 .locationIcon {
   width: 19px;
   height: 23px;
   margin-right: 4px;
+  padding-top:2px;
 }
 
 .educationIcon{
   width: 26px;
   height: 26px;
   margin-right: 4px;
+  padding-top:2px;
 }
 
 .iconText {
@@ -146,7 +159,7 @@ a {
 
 @media (max-width: 99999px) {
   body {
-    width: 50%; /* Width when screen size is less than 99999 */
+    width: 55%; /* Width when screen size is less than 99999 */
   }
 }
 @media (max-width: 2270px) {
@@ -164,7 +177,7 @@ a {
     width: 65%;
   }
 } 
-@media (max-width:1750px) {
+@media (max-width:1800px) {
   body {
     width: 70%;
   }
