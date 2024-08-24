@@ -86,13 +86,12 @@
      <div class="sectionTitle">
         <div class="allignContentTextAndIcon">
             <img src="images/img-unity.png" class="icon">
-            <h4 class="iconText" style="display:inline; margin:0; font-weight: 500;">Portfolio</h4>
+            <h4 class="iconText" style="display:inline; margin:0; font-weight: 500;">
+                <a href="PortfolioUnity.html">
+                    Portfolio
+                </a>
+            </h4>
         </div>
-        <section class="section">
-            <p style="text-align: left; font-size: 1rem; padding-left: 20px;">
-                Available <a href="PortfolioUnity.html">here.</a>
-            </p>    
-        </section>
     </div>
     
     <!--------------------------------- skills -->
@@ -104,10 +103,9 @@
     </div>
     
     <section class="section" style=" display: flex; padding-top: 10px;">
-        
         <div class="column">
             <!-- Core skills -->
-            <skillType>Core</skillType>
+            <bigText>Core</bigText>
             <ul>
                 <li>Unity, C#</li>
                 <li>Data structures, algorithms</li>
@@ -117,9 +115,8 @@
 
             <br>
             <!-- Soft skills -->
-            <skillType style="margin-top:80px;">Soft</skillType>
+            <bigText style="margin-top:80px;">Soft</bigText>
             <ul>
-                <li>Patient</li>
                 <li>Open to feedback</li>
                 <li>Clear communication </li>
                 <li>Collaborative mindset</li>
@@ -129,7 +126,7 @@
     
         <!-- Secondary skills -->
         <div class="column">
-            <skillType class="skillType">Secondary</skillType>
+            <bigText>Secondary</bigText>
             <ul>
                 <li>Unreal Engine, C++</li>
                 <li>Python, AI basics</li>
@@ -143,7 +140,7 @@
     </section>
 
     
-    <!--------------------------------- work experience -->
+    <!--------------------------------- Work Experience -->
     <div class="sectionTitle">
         <div class="allignContentTextAndIcon">
             <img src="images/img-work.png" class="icon">
@@ -151,46 +148,58 @@
         </div>
     </div>    
     
+    <!-- Miniclip -->
     <section class="section">
-        <table>
-            <thead>
-                <tr>
-                    <th>Company</th>
-                    <th>Role</th>
-                    <th>Period</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>
-                        <a href="https://www.miniclip.com/">Miniclip</a>
-                    </td>
-                    <td>C# / Unity Developer</td>
-                    <td>March 2023 - Current</td>
-                </tr>
-            </tbody>
-        </table>
-    </section>    
-    
+        
+        <div class="distributeHorizontal">
+            <div style="padding-left: 20px; padding-top: 15px; padding-bottom: 15px;">
+                <bigText> Unity & C# Developer | 
+                    <a href="https://www.miniclip.com/">
+                        Miniclip
+                    </a>
+                <bigText>
+            </div>
+            <div style="padding-right: 20px; padding-top: 20px; padding-bottom: 14px;">
+                <div> March 2023 - Current</div>
+            </div>
+        </div>
+
+        <section style="background-color: #212228; border-radius: 15px; margin:4px;
+        padding-top: 10px; padding-bottom: 1px;">
+            <div class="column">
+                <!-- Core skills -->
+                <ul>
+                    <li>Implemented and integrated new features on <a href="https://play.google.com/store/apps/details?id=com.miniclip.battlerivals&hl=en">Battle Rivals</a> (currently in soft launch)</li>
+                    <li>Debugging</li>
+                    <li>Worked on C++ code</li>
+                    <li>Server communication (Protobuffer)</li>
+                    <li>Version control (Bitbucket and Fork)</li>
+                </ul>          
+            </div>
+        </section>
+        
+    </section>
+
     <!--------------------------------- Education -->
-    <div class="sectionTitle">
+     <div class="sectionTitle">
         <div class="allignContentTextAndIcon">
             <img src="images/img-education.png" class="educationIcon">
             <h4 class="iconText" style="display:inline; margin:0; font-weight: 500;">Education</h4>
         </div>
-    </div>
+    </div>  
     
-    
+    <!-- Miniclip -->
     <section class="section">
-        <table>
-            <thead>
-                <tr>
-                    <th>Institution</th>
-                    <th>Details</th>
-                    <th>Period</th>
-                </tr>
-            </thead>
-            <tbody>
+        <table class="titleTable">
+            <tr>
+                <th>Institution</th>
+                <th>Details</th>
+                <th>Period</th>
+            </tr>
+        </table>
+    
+        <div style="display: flex; justify-content: center;">
+            <table class="contentTable">
                 <tr>
                     <td>
                         <a href="https://dbgameacademy.it/">DBGA</a>
@@ -198,17 +207,13 @@
                     <td>Game Dev Course</td>
                     <td>Mar 2022 - Mar 2023</td>
                 </tr>
-    
                 <tr>
                     <td>
                         <a href="https://corsi.unipr.it/en/cdl-info">Parma University</a>
                     </td>
-                    <td>
-                        Computer Science Bachelor's  Degree (106/110)
-                    </td>
+                    <td>Computer Science Bachelor's Degree (106/110)</td>
                     <td>Sep 2018 - Mar 2022</td>
                 </tr>
-    
                 <tr>
                     <td>
                         <a href="https://www.liceoulivi.it/">Liceo Ulivi</a>
@@ -216,11 +221,9 @@
                     <td>Scientific Diploma</td>
                     <td>Sep 2013 - Aug 2018</td>
                 </tr>
-    
-            </tbody>
-        </table>
+            </table>
+        </div>
     </section>
-
 </body>
 
 <!----------------------------------------------------------------->
@@ -242,7 +245,7 @@
     }
 
     .sectionTitle{
-        font-size: 1.5rem;
+        font-size: 1.6rem;
         margin-top:30px;   
         margin-bottom: 0px;
     }
@@ -253,9 +256,10 @@
         background-color: #363844;
         padding: 0px;
         gap: 20px;
-        border-radius: 5px;
-        border: 3px solid #363844;
-        margin-top: 5px
+        border-radius: 15px;
+        border: 3px solid #363844; /* controlls border size */
+        margin-top: 5px;
+        text-align: left;
     }
 
     /* ------------------------ skills columns */
@@ -266,35 +270,66 @@
         text-align: left;
     }
 
-    skillType {
+    bigText {
         margin-bottom: 0px;
-        font-size: 1.18rem;
+        font-size: 1.1rem;
         font-weight: 500;
     }
 
+    /* ---------------------------------------------- Work Experience --*/
+
+    .companyDetailsTitle{
+        padding-top: 0px; 
+        margin-top: 0px;
+        padding-left: 20px;
+    }
+
     /* ---------------------------------------------- Table --*/
-    table {
-        width: 100%; /* Makes the table expand to the full width of its container */
-        border-spacing: 0; /* Ensures that there is no space between the borders of the cells */
-        border-radius: 5px;
+    .titleTable {
+        width: 100%;
         justify-content: space-between;
         align-content: center;
         table-layout: fixed;
         overflow: hidden;
+        border-radius: 15px;
+        margin:0;
     }
 
-    th, td {
-        /*border: 1px solid white; /* Sets the border for the table cells */
-        padding:10px; /* Adds padding inside the cells */
-        text-align: center; /* Aligns text to the left inside cells */
+    .contentTable {
+        width: 100%; 
+        justify-content: space-between;
+        align-content: center;
+        table-layout: fixed;
+        overflow: hidden;
+        border-radius: 15px;
+        background-color: #212228;
+        
+        margin:3px; /*controlls border size*/
+    }
+
+    td {
+        text-align: center;
+        padding:15px;
     }
 
     th{
-        padding-bottom: 15px;
+        text-align: center;
+        padding:15px;
     }
 
-    tbody {
-        background-color: #212228;
-    }
+    .tableTitles
+    {
 
+    }
+    /* ---------------------------------------------- Custom Line --*/
+
+    hr.customLine {
+    border: none; /* Remove the default border */
+
+    /* very light background version */
+    border-top: solid #212228; 
+    background-color: #212228;
+    
+    height:2px;
+    }
 </style>
