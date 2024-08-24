@@ -33,8 +33,8 @@
         </div>
 
         <!--video -->
-        <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; background: #000;">
-            <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+        <div class="videoContainer">
+            <iframe class="videoFrame"
                     src="https://www.youtube.com/embed/gEkphmxIJFs?si=lYhEin8oqk9mFnjG&rel=0"
                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
                     gyroscope; picture-in-picture" allowfullscreen>
@@ -70,8 +70,8 @@
         </div>
 
         <!--video -->
-        <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; background: #000;">
-            <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+        <div class="videoContainer">
+            <iframe class="videoFrame"
                     src="https://www.youtube.com/embed/INVXqbWku0M?si=eADJzUwc019yct6i&rel=0"
                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
                     gyroscope; picture-in-picture" allowfullscreen>
@@ -107,8 +107,8 @@
         </div>
 
         <!--video -->
-        <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; background: #000;">
-            <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+        <div class="videoContainer">
+            <iframe class="videoFrame"
                     src="https://www.youtube.com/embed/QvCMIPptmMI?si=hS-3F2l-KT0rryW&rel=0"
                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
                     gyroscope; picture-in-picture" allowfullscreen>
@@ -147,8 +147,8 @@
         </div>
 
         <!--video -->
-        <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; background: #000;">
-            <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+        <div class="videoContainer">
+            <iframe class="videoFrame"
                     src="https://www.youtube.com/embed/P6UuxGKuZzw?si=z1OIbzZmA0UnfO1T&rel=0"
                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
                     gyroscope; picture-in-picture" allowfullscreen>
@@ -182,8 +182,8 @@
         </div>
 
         <!--video -->
-        <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; background: #000;">
-            <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+        <div class="videoContainer">
+            <iframe class="videoFrame"
                     src="https://www.youtube.com/embed/8y7h7G0Glqo?si=euvhkC9Ng5wVi7OU&rel=0"
                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
                     gyroscope; picture-in-picture" allowfullscreen>
@@ -219,8 +219,8 @@
         </div>
 
         <!--video -->
-        <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; background: #000;">
-            <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+        <div class="videoContainer">
+            <iframe class="videoFrame"
                     src="https://www.youtube.com/embed/r3uRZQ_iafY?si=L_wEs5KceF1_mT08&rel=0"
                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
                     gyroscope; picture-in-picture" allowfullscreen>
@@ -289,15 +289,36 @@
         padding-right: 20px;
     }
 
-hr.customLine{
-  border: none; /* Remove the default border */
+    hr.customLine{
+    border: none; /* Remove the default border */
 
-  /* very light background version */
-  border-top: 2px solid #4e5269; 
-  background-color: #4e5269;
-  
-  height: 1px;
-}
+    /* very light background version */
+    border-top: 2px solid #4e5269; 
+    background-color: #4e5269;
+    
+    height: 1px;
+    }
+
+    .videoContainer
+    {
+        position: relative; 
+        padding-bottom: 56.25%; 
+        height: 0; 
+        overflow: hidden; 
+        max-width: 100%; 
+        background: #000; 
+        border-radius: 15px;
+    }
+
+    .videoFrame
+    {
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        width: 100%; 
+        height: 100%; 
+        border-radius: 15px;
+    }
 
     
 </style>
