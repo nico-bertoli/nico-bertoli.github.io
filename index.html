@@ -85,7 +85,7 @@
     
         <!-------------------------------------------------------------------------------------------- Buttons -->
     
-        <section class="distributeHorizontal", style="margin-top:30px;">
+        <section class="distributeHorizontal", style="margin-top:30px; flex-wrap: nowrap;">
     
             <a href="CV.html" class="image-button">
                 <img src="images/img-cv.png" alt="Button Background;">
@@ -101,7 +101,7 @@
     
         
         
-<div class="ascii-art", style="color: #212228; margin-top: 00px;">
+<div class="ascii-art", style="color: #212228; margin-top: 100px;">
     <pre>
 ／l、
 （ﾟ､ ｡ ７
@@ -110,7 +110,7 @@ l  ~ヽ
 </pre>
 </div>
        
-    </section>
+</section>
 
 
 </body>
@@ -119,10 +119,11 @@ l  ~ヽ
 <style>
 
 .image-button {
-    background-color: black;
+    background-color: #363844;
     position: relative;
     display: inline-block;
     padding: 0px;
+    margin:5px;
     cursor: pointer;
     border-radius: 15px;
     overflow:hidden;
@@ -132,7 +133,7 @@ l  ~ヽ
     height: 400px; /* Set a fixed height for the button */
     width: 48.5%; /* Make the button expand horizontally */
     transition: all 0.3s ease;
-    border: 4px solid #4e5269; /*light background color*/
+    border: 6px solid #363844; /*light background color*/
 }
 
 .image-button img {
@@ -141,7 +142,7 @@ l  ~ヽ
     height: calc(100% - 45px); /* Adjust the height to accommodate the text */
     object-fit: cover;
     object-position: top; /* Align the top of the image with the top of the container */
-    opacity: 0.8; /*needed for effect to work */
+    opacity: 0.85; /*needed for effect to work */
     /* filter: blur(2px); */
 }
 
