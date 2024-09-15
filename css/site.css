@@ -113,8 +113,9 @@ body {
 /* ------------------------ hyperlinks */
 
 a {
-  color: #5c8fff; /* Change this to your preferred color */
-  text-decoration: none; /* Optional: Remove underline */
+  color: #5c8fff; 
+  text-decoration:underline;
+  text-decoration-thickness: 1px;
 }
 
 /* ------------------------- Navbar*/
