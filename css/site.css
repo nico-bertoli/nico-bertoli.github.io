@@ -117,6 +117,12 @@ a {
   text-decoration:underline;
   text-decoration-thickness: 1px;
 }
+a:hover {
+  color: #3b6bcc;
+  text-decoration: none;
+  text-decoration:underline;
+  text-decoration-thickness: 1px;
+}
 
 /* ------------------------- Navbar*/
 
