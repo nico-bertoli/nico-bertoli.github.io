@@ -118,6 +118,12 @@ body {
   margin:0;
 }
 
+.portfolio-two-columns-dotlist {
+  list-style-type: disc;
+  column-count: 1; 
+  padding-left: 25px;
+}
+
 /* ------------------------ hyperlinks */
 
 a {
