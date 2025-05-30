@@ -233,3 +233,68 @@ a:hover {
     width: 95%;
   }
 } 
+
+/*------------------------------------- portfolio*/
+
+    gameName{
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+
+    .titleContainer {
+        justify-content: space-between;
+        align-items: baseline; 
+        display: flex;
+        flex-wrap: wrap;
+        padding:10px;
+    }
+
+    .footerContainer {
+        padding-top: 25px;
+        padding-bottom: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 40px; /* Adjust the value as per the required space */
+}
+
+    .dateText {
+        font-size: 0.9rem;
+        color: #9b9b9b;
+        padding-left:10px;
+        padding-right: 20px;
+        margin-top: 0; 
+        margin-bottom: 0;
+    }
+
+    hr.customLine{
+    border: none; /* Remove the default border */
+
+    /* very light background version */
+    border-top: 2px solid #4e5269; 
+    background-color: #4e5269;
+    
+    height: 1px;
+    }
+
+    .videoContainer
+    {
+        position: relative; 
+        padding-bottom: 56.25%; 
+        height: 0; 
+        overflow: hidden; 
+        max-width: 100%; 
+        background: #000; 
+        border-radius: 15px;
+    }
+
+    .videoFrame
+    {
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        width: 100%; 
+        height: 100%; 
+        border-radius: 15px;
+    }

@@ -13,7 +13,8 @@
     <p>Nicolò Bertoli</p>
     <a href="index.html">Home</a>
     <a href="CV.html">CV</a>
-    <a href="Portfolio.html">Portfolio</a>
+    <a href="PortfolioC++.html">Portfolio C++</a>
+    <a href="PortfolioCS.html">Portfolio C#</a>
 </div>
 
 <!--------------------------------------------------------- Body-->
@@ -82,22 +83,27 @@
         </section>
     
         <!-------------------------------------------------------------------------------------------- Buttons -->
+
+<section style="margin-top:30px;">
+    <a href="CV.html" class="image-button" style = "width: 50%">
+        <img src="images/img-cv.png" alt="Button Background">
+        <span>CV</span>
+    </a>
+    </section>
+
+<section class="grid-container" style="margin-top:30px;">
     
-        <section class="distributeHorizontal", style="margin-top:30px; flex-wrap: nowrap;">
-    
-            <a href="CV.html" class="image-button">
-                <img src="images/img-cv.png" alt="Button Background;">
-                    <span>CV</span>
-            </a>
-    
-            <a href="Portfolio.html" class="image-button">
-                <img src="images/img-duck-trust.png" alt="Button Background">
-                <span>Porfolio</span>
-            </a>
-           
-        </section>
-    
-        
+    <a href="PortfolioC++.html" class="image-button">
+        <img src="images/img-space-invaders.png" alt="Button Background">
+        <span>Portfolio C++</span>
+    </a>
+
+    <a href="PortfolioCS.html" class="image-button">
+        <img src="images/img-maze.png" alt="Button Background">
+        <span>Portfolio C#</span>
+    </a>
+
+</section>
         
 <div class="ascii-art", style="color: #212228; margin-top: 100px;">
     <pre>
@@ -129,7 +135,7 @@ l  ~ヽ
     font-weight: bold;
     color: white; /* text color */
     height: 400px; /* Set a fixed height for the button */
-    width: 48.5%; /* Make the button expand horizontally */
+    width: 100%; /* Make the button expand horizontally */
     transition: all 0.3s ease;
     border: 6px solid #363844; /*light background color*/
 }
@@ -159,5 +165,11 @@ l  ~ヽ
         color:white;
         background-color: #dae0ff;
      }
+
+    .grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    }
 
  </style>
