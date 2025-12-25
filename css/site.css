@@ -164,6 +164,7 @@ a:hover {
   border-radius: 15px;
   margin-right: 10px; /* Spacing between items */
   font-size: 20px; /* Increase font size */
+  transition: all 0.3s ease;
 }
 
 .navbar p {
@@ -176,7 +177,7 @@ a:hover {
 .navbar a:hover {
   background-color: rgba(225, 230, 255, 0.3);
   border-radius: 15px;
-  transition: all 0.3s ease;
+  transform: scale(1.03);
 }
 
 /*------------------------------------- resize window*/
