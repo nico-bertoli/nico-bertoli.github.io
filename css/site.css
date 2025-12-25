@@ -18,7 +18,7 @@
   --text-accent: #00d9ff;
 
   --border-color: #2e323c;
-  --divider-color: #1a1d26;
+  --divider-color: #33394b;
 
   --navbar-bg: #151821;
   --button-bg: #1a1d26;
@@ -325,6 +325,13 @@ a:focus {
         border-radius: 15px;
         border: 1px solid var(--border-color);
         box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+        transition: all 0.3s ease;
+    }
+
+    .videoContainer:hover {
+        border-color: var(--accent-primary);
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4), 0 0 20px var(--accent-glow);
+        transform: scale(1.01);
     }
 
     .videoFrame
