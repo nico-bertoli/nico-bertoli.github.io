@@ -107,7 +107,7 @@
 
 </section>
         
-<div class="ascii-art", style="color: #212228; margin-top: 100px;">
+<div class="ascii-art" style="color: var(--bg-primary); margin-top: 100px;">
     <pre>
 ／l、
 （ﾟ､ ｡ ７
@@ -125,7 +125,7 @@ l  ~ヽ
 <style>
 
 .image-button {
-    background-color: #363844;
+    background-color: var(--bg-secondary);
     position: relative;
     display: inline-block;
     padding: 0px;
@@ -135,11 +135,12 @@ l  ~ヽ
     overflow:hidden;
     text-align: center;
     font-weight: bold;
-    color: white; /* text color */
-    height: 400px; /* Set a fixed height for the button */
-    width: 100%; /* Make the button expand horizontally */
+    color: var(--text-primary);
+    height: 400px;
+    width: 100%;
     transition: all 0.3s ease;
-    border: 6px solid #363844; /*light background color*/
+    border: 2px solid var(--border-color);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
 .image-button img {
@@ -157,17 +158,23 @@ l  ~ヽ
         position: absolute;
         bottom: 0px;
         width: 100%;
-        background-color: #363844;
+        background-color: var(--bg-secondary);
         padding: 12px 0;
-        /* font-size: 20px; */
         font-size: 1.2rem;
+        border-top: 1px solid var(--border-color);
     }
 
     .image-button:hover {
-        color:white;
-        background-color: #dae0ff;
+        color: var(--text-primary);
+        background-color: var(--bg-tertiary);
+        border-color: var(--accent-primary);
         transform: scale(1.03);
-        transition: all 0.3s ease;
+        box-shadow: 0 8px 24px var(--accent-glow);
+     }
+     
+     .image-button:focus {
+         outline: 3px solid var(--accent-primary);
+         outline-offset: 3px;
      }
 
     .grid-container{
