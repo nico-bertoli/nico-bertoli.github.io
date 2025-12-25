@@ -18,12 +18,17 @@
 
 <!--------------------------------------------------------- Body-->
 <body>
-    <section style="padding-top: 20px;">
-        <h1 class="title">Hi, I'm Nicolò</h1>
-        <p class="subtitle">Welcome to my website!</p>
+    <section>
+        <!--profile pic-->
+        <div style="display: flex; justify-content: center; margin-top: 80px;">
+            <img src="images/profile.jpeg" class="profile-photo">
+        </div>
+
+        <!--welcome message-->
+        <p class="subtitle">Hi, I'm Nicolò. Welcome to my website!</p>
             
         <!-------------------------------------------------------------------------------------------- Contacts -->
-        <section class="iconsSection" style="margin-top:20px;">
+        <section class="iconsSection">
     
             <section class="distributeHorizontal" style="grid-gap:15px;">
                 <!-- mail icon -->
@@ -164,6 +169,16 @@ l  ~ヽ
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
+    }
+
+    .profile-photo {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 3px solid var(--border-color);
+        box-shadow: 0 4px 16px var(--border-color);
+        transition: all 0.3s ease;
     }
 
  </style>
