@@ -1,6 +1,27 @@
-/* html {
-  font-size: 14px;
-} */
+/* ============================================
+   COLOR PALETTE - CSS Custom Properties
+   ============================================ */
+:root { 
+  --bg-primary: #0f1117;
+  --bg-secondary: #1a1d26;
+
+  --section-title-color: #ffffff;
+  --accent-primary: #4d81ff;
+  --accent-glow: #4d81ff;
+
+  --text-primary: #f0f4f8;
+  --text-secondary: #c8d1dc;
+  --text-muted: #8892a0;
+
+  --link-color: #4d81ff;
+  --link-hover: #3459b3;
+
+  --border-color: #2e323c;
+  --divider-color: #33394b;
+
+  --navbar-bg: #151821;
+  --button-hover: rgba(0, 217, 255, 0.12);
+}
 
 @media (min-width: 768px) {
   html {
@@ -8,33 +29,31 @@
   }
 }
 
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
-}
+/* .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem var(--text-primary), 0 0 0 0.25rem var(--accent-primary);
+} */
 
 html {
   position: relative;
   min-height: 100%;
+  scroll-behavior: smooth;
 }
 
 /*------------------------------------- general */
 
 body {
-  color: white;
-  background-color: #212228;
-
-  /* date text: 9b9b9b */
-  /* light background: 363844 */
-  /* very light background 4e5269 */
+  color: var(--text-primary);
+  background-color: var(--bg-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
 
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
   padding-bottom: 50px;
-  margin: 0 auto; /* Centers the body element horizontally */
-  text-align: center; /* Centers the text inside the body */
-  width: 70%; /* Default width for larger screens */
-  max-width: 2000; /* Maximum width to prevent it from becoming too large */
-  box-sizing: border-box; /* Includes padding and border in the element's total width and height */
+  margin: 0 auto;
+  text-align: center;
+  width: 70%;
+  max-width: 2000px;
+  box-sizing: border-box;
 }
 
 .distributeHorizontal {
@@ -45,14 +64,14 @@ body {
 }
 
 .iconsSection {
-  background-color: #363844;
+  background-color: var(--bg-secondary);
   padding-left: 40px;
   padding-right: 40px;
   padding-top:15px;
   padding-bottom: 15px;
   border-radius: 15px;
-  border:0px;
-  /* border: 2px solid white; */
+  border: 1px solid var(--border-color);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
 }
 
 /*------------------------------------- title */
@@ -74,48 +93,22 @@ body {
   font-weight: 500; 
 }
 
-/*------------------------------------- icons */
-.icon {
-  display: inline-block;
-  width: 23px; /* Custom size for icons */
-  height: 23px; /* Custom size for icons */
-  vertical-align: middle; /* Align icons vertically in the middle */
-  margin-right: 4px; /* Space between icon and text */
-  padding-top:2px;
-}
-
-.locationIcon {
-  width: 19px;
-  height: 23px;
-  margin-right: 4px;
-  padding-top:2px;
-}
-
-.educationIcon{
-  width: 26px;
-  height: 26px;
-  margin-right: 4px;
-  padding-top:2px;
-}
-
-.portfolioIcon{
-  width: 24px;
-  height: 26px;
-  margin-right: 4px;
-  padding-top:5px;
-}
 
 .iconText {
-  display: inline; /* Keep text on the same line */
+  display: inline;
+}
+
+.sectionTitle h4.iconText {
+  color: var(--section-title-color);
 }
 
 .allignContentTextAndIcon {
-  white-space: nowrap; /* prevents text from going on new line */
-  color: white;
+  white-space: nowrap;
+  color: var(--text-primary);
   text-align: center;
   display: flex;
   align-items: center;
-  margin:0;
+  gap: 4px;
 }
 
 .portfolio-two-columns-dotlist {
@@ -127,63 +120,80 @@ body {
 /* ------------------------ hyperlinks */
 
 a {
-  color: #5c8fff; 
-  text-decoration:underline;
+  color: var(--link-color); 
+  text-decoration: underline;
   text-decoration-thickness: 1px;
+  transition: color 0.2s ease, text-decoration 0.2s ease;
 }
 a:hover {
-  color: #3b6bcc;
-  text-decoration: none;
-  text-decoration:underline;
-  text-decoration-thickness: 1px;
+  color: var(--link-hover);
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+}
+a:focus {
+  outline: 2px solid var(--link-color);
+  outline-offset: 2px;
+  border-radius: 2px;
 }
 
 /* ------------------------- Navbar*/
 
 .navbar {
-  background-color: #363844;
+  background-color: var(--navbar-bg);
   overflow: hidden;
   width: 100%;
-  padding: 8px 20px; /* Vertical and horizontal padding */
-  position: fixed; /* Make the navbar fixed at the top */
+  padding: 8px 20px;
+  position: fixed;
   top: 0;
   left: 0;
   z-index: 1000;
-  display: flex; /* Align elements horizontally */
-  align-items: center; /* Center items vertically */
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(10px);
 }
 
 .navbar a {
-  display: flex; /* Flex container for proper alignment */
-  align-items: center; /* Center text vertically within each link */
-  color: white;
+  display: flex;
+  align-items: center;
+  color: var(--text-primary);
   text-align: center;
-  padding: 11px 16px; /* Size of items */
+  padding: 11px 16px;
   text-decoration: none;
-  background: #212228;
+  background: var(--bg-primary);
   border-radius: 15px;
-  margin-right: 10px; /* Spacing between items */
-  font-size: 20px; /* Increase font size */
+  margin-right: 10px;
+  font-size: 20px;
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
 }
 
 .navbar p {
-  margin: 0; /* Remove default margins from <p> */
-  margin-right: 20px; /* Horizontal padding */
-  font-size: 20px; /* Increase font size */
-  color: white; /* Ensure text color is visible */
+  margin: 0;
+  margin-right: 20px;
+  font-size: 20px;
+  color: var(--text-primary);
+  font-weight: 600;
 }
 
 .navbar a:hover {
-  background-color: rgba(225, 230, 255, 0.3);
+  background-color: var(--button-hover);
+  border-color: var(--accent-primary);
   border-radius: 15px;
-  transition: all 0.3s ease;
+  transform: scale(1.03);
+  box-shadow: 0 4px 12px var(--accent-glow);
+}
+.navbar a:focus {
+  outline: 2px solid var(--accent-primary);
+  outline-offset: 2px;
+  box-shadow: 0 0 0 3px var(--accent-glow);
 }
 
 /*------------------------------------- resize window*/
 
 @media (max-width: 99999px) {
   body {
-    width: 55%; /* Width when screen size is less than 99999 */
+    width: 55%;
   }
 }
 @media (max-width: 2270px) {
@@ -239,6 +249,8 @@ a:hover {
     gameName{
         font-size: 1.5rem;
         font-weight: 500;
+        font-weight: bold;
+        color: var(--section-title-color);
     }
 
     .titleContainer {
@@ -256,12 +268,12 @@ a:hover {
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
-        gap: 40px; /* Adjust the value as per the required space */
+        gap: 40px;
 }
 
     .dateText {
         font-size: 0.9rem;
-        color: #9b9b9b;
+        color: var(--text-muted);
         padding-left:10px;
         padding-right: 20px;
         margin-top: 0; 
@@ -269,13 +281,11 @@ a:hover {
     }
 
     hr.customLine{
-    border: none; /* Remove the default border */
-
-    /* very light background version */
-    border-top: 2px solid #4e5269; 
-    background-color: #4e5269;
-    
+    border: none;
+    border-top: 2px solid var(--divider-color); 
+    background-color: var(--divider-color);
     height: 1px;
+    margin: 2rem 0;
     }
 
     .videoContainer
@@ -285,8 +295,17 @@ a:hover {
         height: 0; 
         overflow: hidden; 
         max-width: 100%; 
-        background: #000; 
+        background: var(--bg-primary); 
         border-radius: 15px;
+        border: 1px solid var(--border-color);
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+        transition: all 0.3s ease;
+    }
+
+    .videoContainer:hover {
+        border-color: var(--accent-primary);
+        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4), 0 0 20px var(--accent-glow);
+        transform: scale(1.01);
     }
 
     .videoFrame

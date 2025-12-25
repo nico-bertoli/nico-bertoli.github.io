@@ -2,8 +2,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="icon" type="image/png" href="images/img-portfolio.png">
-    <link href="css/site.css" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="images/site-icon.png">
+    <link href="css/settings.css" rel="stylesheet" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
@@ -11,11 +11,9 @@
 
 <!--------------------------------------------------------- Navbar-->
 <div class="navbar">
-    <p>Nicolò Bertoli</p>
     <a href="index.html">Home</a>
     <a href="CV.html">CV</a>
-    <a href="PortfolioC++.html">C++ Portfolio</a>
-    <a href="PortfolioCS.html">C# Portfolio</a>
+    <a href="Portfolio.html">Portfolio</a>
 </div>
 
 <!--------------------------------------------------------- Title-->
@@ -24,7 +22,7 @@
         <br />
         <div class="text-center">
             <h1 class="title">Nicolò Bertoli</h1>
-            <h2 class="subtitle">C++ and C# Developer</h2>
+            <h2 class="subtitle">C++ Developer</h2>
         </div>
     
         <!--------------------------------- top icons -->
@@ -34,7 +32,7 @@
             <section class="distributeHorizontal" style="grid-gap:15px; ">
                 <!-- mail icon -->
                 <div class="allignContentTextAndIcon">
-                    <img src="images/img-mail.png" class="icon">
+                    <span class="iconText">✉️</span>
                     <a href="mailto:nicobertoli.1999@gmail.com">
                         <span class="iconText">nicobertoli.1999@gmail.com</span>
                     </a>
@@ -42,21 +40,20 @@
     
                 <!-- phone icon -->
                 <div class="allignContentTextAndIcon">
-                    <img src="images/img-number.png" class="icon">
-                    <span class="iconText">(+39) 334 1308720</span>
+                    <span class="iconText">☎️ (+39) 334 1308720</span>
                 </div>
     
-                <!-- positoin icon -->
+                <!-- position icon -->
                 <div class="allignContentTextAndIcon">
-                    <img src="images/img-position.png" alt="Position Icon" class="locationIcon">
+                    <span class="iconText">📍</span>
                     <a href="https://maps.app.goo.gl/MPa4c4h79kWxkrZo7">
-                        <span class="iconText">Parma, Italy
+                        <span class="iconText">Parma, Italy</span>
                     </a>
                 </div>
     
-                <!-- mail icon -->
+                <!-- linkedin icon -->
                 <div class="allignContentTextAndIcon">
-                    <img src="images/img-in.png" class="icon">
+                    <span class="iconText">💼</span>
                     <a href="https://www.linkedin.com/in/nicolo-bertoli/">
                         <span class="iconText">Linkedin</span>
                     </a>
@@ -64,7 +61,7 @@
     
                 <!-- github icon -->
                 <div class="allignContentTextAndIcon">
-                    <img src="images/img-github.png" class="icon">
+                    <span class="iconText">💻</span>
                     <a href="https://github.com/nico-bertoli">
                         <span class="iconText">Github</span>
                     </a>
@@ -74,77 +71,74 @@
             </section>
         </section>
 
-    <!--------------------------------- about me
+    <!--------------------------------- about me -->
     <div class="sectionTitle">
         <div class="allignContentTextAndIcon">
-            <img src="images/img-single.png" class="educationIcon">
-            <h4 class="iconText" style="display:inline; margin:0; font-weight: 500; padding-left: 2px;">
-                About me
+            <h4 class="iconText" style="display:inline; margin:0; font-weight: bold; padding-left: 2px;">
+                👤 About me
             </h4>
         </div>
     </div>
 
 <section class = "section" style="padding-left: 20px; ">
     <p>
-        I am a C++ developer oriented toward graphics. I hold a bachelor's degree in Computer Science and began my career in mobile game
-        development, before transitioning into C++ development.
+        I began my career in the game industry developing mobile games using Unity, C#, and C++.<br>
+        I’m currently developing graphics Qt applications on Linux in the autonomous driving sector.
     </p>
 </section>
     
     <!--------------------------------- skills -->
     <div class="sectionTitle">
         <div class="allignContentTextAndIcon">
-            <img src="images/img-skills.png" class="icon">
-            <h4 class="iconText" style="display:inline; margin:0; font-weight: 500;">Skills</h4>
+            <h4 class="iconText" style="display:inline; margin:0; font-weight: bold;">⚙️ Skills</h4>
         </div>
     </div>
     
     <section class="section" style=" display: flex; padding-top: 10px; gap:0px; padding-right: 20px;">
         <div class="column">
             <!-- Core skills -->
-            <bigText>Object-Oriented Programming</bigText>
+            <bigText>C++ development</bigText>
             <ul>
-                <li>C++ up to standard 20 (<a href="PortfolioC++.html">see personal projects</a>)</li>
-                <li>C# (<a href="PortfolioCS.html">see personal projects</a>)</li>
-                <li>SOLID principles, design patterns</li>
-                <li>Data structures, algorithms</li>
+                <li>C++ up to 26 (<a href="Portfolio.html">see personal projects</a>)</li>
+                <li>Multithreading</li>
+                <li>QT framework</li>
+                <li>Linux and Bash</li>
+                <li>CMake</li>
             </ul>
 
-            <bigText>Computer Graphics</bigText>
+            <bigText>Game development</bigText>
             <ul>
                 <li>Game engines (Unity, Unreal)</li>
-                <li>Linear algebra fundations</li>
-                <li>Rendering fundations</li>
+                <li>Linear algebra and rendering fundations</li>
             </ul>
-
         </div>
     
         <!-- Secondary skills -->
         <div class="column">
-
-            <bigText>Soft Skills</bigText>
+            
+            <bigText>Software design</bigText>
             <ul>
-                <li>Proven track record of effective teamwork on multiple projects</li>
+                <li>Unit testing (Google Test)</li>
+                <li>Data structures and algorithms</li>
+                <li>SOLID principles</li>
+                <li>Design patterns</li>
             </ul>
-
+            
             <bigText>Others</bigText>
             <ul>
-                <li>CMake</li>
-                <li>QT framework</li>
-                <li>Python & machine learning</li>
-                <li>Multithreading,  HPC</li>
-                <li>Linux and Bash</li>
-                <li>Docker</li>
+                <li>C#</li>
                 <li>SQL</li>
+                <li>Python & machine learning</li>
+                 <li>Teamwork experience across multiple projects</li>
             </ul>
+
         </div>
     </section>
 
     <!--------------------------------- Work Experience -->
     <div class="sectionTitle">
         <div class="allignContentTextAndIcon">
-            <img src="images/img-work.png" class="icon">
-            <h4 class="iconText" style="display:inline; margin:0; font-weight: 500;">Work Experience</h4>
+            <h4 class="iconText" style="display:inline; margin:0; font-weight: bold;">💼 Work Experience</h4>
         </div>
     </div>   
 
@@ -160,7 +154,7 @@
                 <div>Sept 2025 - Current</div>
             </div>
         </div>
-        <section style="background-color: #212228; border-radius: 15px; margin:4px;
+        <section style="background-color: var(--bg-primary); border-radius: 15px; margin:4px;
         padding-top: 10px; padding-bottom: 1px;">
             <div class="column">
                 <ul>
@@ -185,7 +179,7 @@
                 <div>Mar 2023 - Sept 2025 (2 yrs 6 mos)</div>
             </div>
         </div>
-        <section style="background-color: #212228; border-radius: 15px; margin:4px;
+        <section style="background-color: var(--bg-primary); border-radius: 15px; margin:4px;
         padding-top: 10px; padding-bottom: 1px;">
             <div class="column">
                 <ul>
@@ -202,12 +196,10 @@
     <!--------------------------------- Education -->
      <div class="sectionTitle">
         <div class="allignContentTextAndIcon">
-            <img src="images/img-education.png" class="educationIcon">
-            <h4 class="iconText" style="display:inline; margin:0; font-weight: 500;">Education</h4>
+            <h4 class="iconText" style="display:inline; margin:0; font-weight: bold;">🎓 Education</h4>
         </div>
     </div>  
     
-    <!-- Miniclip -->
     <section class="section">
         <table class="titleTable">
             <tr>
@@ -247,17 +239,15 @@
          <!--------------------------------- portfolio link -->
          <div class="sectionTitle">
             <div class="allignContentTextAndIcon">
-                <img src="images/img-portfolio.png" class="portfolioIcon">
-                <h4 class="iconText" style="display:inline; margin:0; font-weight: 500; padding-left: 2px;">
-                    Portfolio
+                <h4 class="iconText" style="display:inline; margin:0; font-weight: bold; padding-left: 2px;">
+                    📃 Portfolio
                 </h4>
             </div>
         </div>
 
         <section class = "section" style="padding-left: 20px; ">
-            <p>I have delivered numerous personal projects using both C++ and C#. Feel free to explore my
-                 <a href="PortfolioC++.html">C++ portfolio</a> and <a href="PortfolioCS.html">C# portfolio</a>
-                to see examples of my work.</p>
+            <p>I have delivered numerous personal projects, feel free to explore my
+                 <a href="Portfolio.html">Portfolio</a></p>
         </section>
     
     
@@ -290,13 +280,14 @@
     /* ------------------------ sections */
 
     .section {
-        background-color: #363844;
+        background-color: var(--bg-secondary);
         padding: 0px;
         gap: 20px;
         border-radius: 15px;
-        border: 3px solid #363844; /* controlls border size */
+        border: 2px solid var(--border-color);
         margin-top: 5px;
         text-align: left;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
     }
 
     /* ------------------------ skills columns */
@@ -339,9 +330,8 @@
         table-layout: fixed;
         overflow: hidden;
         border-radius: 15px;
-        background-color: #212228;
-        
-        margin:3px; /*controlls border size*/
+        background-color: var(--bg-primary);
+        margin:3px;
     }
 
     td {
@@ -357,12 +347,10 @@
     /* ---------------------------------------------- Custom Line --*/
 
     hr.customLine {
-    border: none; /* Remove the default border */
-
-    /* very light background version */
-    border-top: solid #212228; 
-    background-color: #212228;
-    
-    height:2px;
+    border: none;
+    border-top: 2px solid var(--divider-color); 
+    background-color: var(--divider-color);
+    height: 2px;
+    margin: 2rem 0;
     }
 </style>

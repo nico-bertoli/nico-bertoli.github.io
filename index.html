@@ -2,8 +2,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="icon" type="image/png" href="images/img-portfolio.png">
-    <link href="css/site.css" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="images/site-icon.png">
+    <link href="css/settings.css" rel="stylesheet" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
@@ -11,32 +11,34 @@
 
 <!--------------------------------------------------------- Navbar-->
 <div class="navbar">
-    <p>Nicolò Bertoli</p>
     <a href="index.html">Home</a>
     <a href="CV.html">CV</a>
-    <a href="PortfolioC++.html">C++ Portfolio</a>
-    <a href="PortfolioCS.html">C# Portfolio</a>
+    <a href="Portfolio.html">Portfolio</a>
 </div>
-
 
 <!--------------------------------------------------------- Body-->
 <body>
     <section>
-        <br />
-        <h1 class="title">Welcome!</h1>
-    
-      <!--  <div style="display: flex;justify-content: center;align-items: center;">
-            <iframe src="https://giphy.com/embed/z5s5NG7w0xPGbehFzX" width="120" height="120"></iframe>
-        </div> -->
-        
-        
+        <!--profile pic and welcome message-->
+        <div class="hero-section">
+            <div class="hero-text">
+                <p class="title">Hi, I'm Nicolò</p>
+                <p class="hero-presentation">
+                    I’m a C++ developer with experience in the game industry, currently developing Qt applications in the autonomous driving sector.
+                </p>
+            </div>
+            <div class="hero-image">
+                <img src="images/profile.jpeg" class="profile-photo">
+            </div>
+        </div>
+            
         <!-------------------------------------------------------------------------------------------- Contacts -->
-        <section class="iconsSection" style="margin-top:20px;">
+        <section class="iconsSection">
     
             <section class="distributeHorizontal" style="grid-gap:15px;">
                 <!-- mail icon -->
                 <div class="allignContentTextAndIcon">
-                    <img src="images/img-mail.png" class="icon">
+                    <span class="iconText">✉️ </span>
                     <a href="mailto:nicobertoli.1999@gmail.com">
                         <span class="iconText">nicobertoli.1999@gmail.com</span>
                     </a>
@@ -44,21 +46,20 @@
     
                 <!-- phone icon -->
                 <div class="allignContentTextAndIcon">
-                    <img src="images/img-number.png" class="icon">
-                    <span class="iconText">(+39) 334 1308720</span>
+                    <span class="iconText">☎️ (+39) 334 1308720</span>
                 </div>
     
-                <!-- positoin icon -->
+                <!-- position icon -->
                 <div class="allignContentTextAndIcon">
-                    <img src="images/img-position.png" alt="Position Icon" class="locationIcon">
+                    <span class="iconText">📍</span>
                     <a href="https://maps.app.goo.gl/MPa4c4h79kWxkrZo7">
-                        <span class="iconText">Parma, Italy
+                        <span class="iconText">Parma, Italy</span>
                     </a>
                 </div>
     
-                <!-- mail icon -->
+                <!-- linkedin icon -->
                 <div class="allignContentTextAndIcon">
-                    <img src="images/img-in.png" class="icon">
+                    <span class="iconText">💼</span>
                     <a href="https://www.linkedin.com/in/nicolo-bertoli/">
                         <span class="iconText">Linkedin</span>
                     </a>
@@ -66,7 +67,7 @@
     
                 <!-- github icon -->
                 <div class="allignContentTextAndIcon">
-                    <img src="images/img-github.png" class="icon">
+                    <span class="iconText">💻</span>
                     <a href="https://github.com/nico-bertoli">
                         <span class="iconText">Github</span>
                     </a>
@@ -74,7 +75,7 @@
     
                 <!-- itch icon -->
                 <!-- <div class="allignContentTextAndIcon">
-                    <img src="images/img-itch.png" class="icon">
+                    <span class="iconText">🎮</span>
                     <a href="https://nicobertoli.itch.io/">
                         <span class="iconText">Itch</span>
                     </a>
@@ -86,28 +87,19 @@
     
         <!-------------------------------------------------------------------------------------------- Buttons -->
 
-<section style="margin-top:30px;">
-    <a href="CV.html" class="image-button" style = "width: 50%">
+<section class="grid-container" style="margin-top:30px;">
+    <a href="CV.html" class="image-button">
         <img src="images/img-cv.png" alt="Button Background">
         <span>CV</span>
     </a>
-    </section>
-
-<section class="grid-container" style="margin-top:30px;">
     
-    <a href="PortfolioC++.html" class="image-button">
+    <a href="Portfolio.html" class="image-button">
         <img src="images/img-space-invaders.png" alt="Button Background">
-        <span>C++ Portfolio</span>
+        <span>Portfolio</span>
     </a>
-
-    <a href="PortfolioCS.html" class="image-button">
-        <img src="images/img-maze.png" alt="Button Background">
-        <span>C# Portfolio</span>
-    </a>
-
 </section>
         
-<div class="ascii-art", style="color: #212228; margin-top: 100px;">
+<div class="ascii-art" style="color: var(--bg-primary); margin-top: 100px;">
     <pre>
 ／l、
 （ﾟ､ ｡ ７
@@ -124,8 +116,9 @@ l  ~ヽ
 
 <style>
 
+/*------------------------------------- image button*/
 .image-button {
-    background-color: #363844;
+    background-color: var(--bg-secondary);
     position: relative;
     display: inline-block;
     padding: 0px;
@@ -135,20 +128,21 @@ l  ~ヽ
     overflow:hidden;
     text-align: center;
     font-weight: bold;
-    color: white; /* text color */
-    height: 400px; /* Set a fixed height for the button */
-    width: 100%; /* Make the button expand horizontally */
+    color: var(--text-primary);
+    height: 400px;
+    width: 100%;
     transition: all 0.3s ease;
-    border: 6px solid #363844; /*light background color*/
+    border: 2px solid var(--border-color);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
 .image-button img {
     display: block;
     width: 100%;
-    height: calc(100% - 45px); /* Adjust the height to accommodate the text */
+    height: calc(100% - 45px);
     object-fit: cover;
-    object-position: top; /* Align the top of the image with the top of the container */
-    opacity: 0.85; /*needed for effect to work */
+    object-position: top;
+    opacity: 0.85;
     /* filter: blur(2px); */
 }
 
@@ -157,21 +151,89 @@ l  ~ヽ
         position: absolute;
         bottom: 0px;
         width: 100%;
-        background-color: #363844;
+        background-color: var(--bg-secondary);
         padding: 12px 0;
-        /* font-size: 20px; */
         font-size: 1.2rem;
+        border-top: 1px solid var(--border-color);
     }
 
     .image-button:hover {
-        color:white;
-        background-color: #dae0ff;
+        color: var(--text-primary);
+        border-color: var(--accent-primary);
+        transform: scale(1.03);
+        box-shadow: 0 8px 24px var(--accent-glow);
+     }
+     
+     .image-button:focus {
+         outline: 3px solid var(--accent-primary);
+         outline-offset: 3px;
      }
 
+/*------------------------------------- grid container*/
     .grid-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
+    }
+
+/*------------------------------------- hero section*/
+    .hero-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        margin-top: 80px;
+        margin-bottom: 40px;
+        padding: 0 40px;
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-text {
+        flex: 1;
+        text-align: left;
+        max-width: 500px;
+    }
+
+    .hero-text .title {
+        font-size: 2.4em;
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+        text-align: left;
+    }
+
+    .hero-presentation {
+        font-size: 1.1rem;
+        line-height: 1.6;
+        color: var(--text-secondary);
+        margin-top: 1rem;
+        margin-bottom: 0;
+        text-align: left;
+    }
+
+    .hero-image {
+        flex-shrink: 0;
+    }
+    /*------------------------------------- profile photo*/
+    .profile-photo {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 3px solid var(--border-color);
+        box-shadow: 0 4px 16px var(--border-color);
+        transition: all 0.3s ease;
+    }
+
+    @media (max-width: 768px) {
+        .hero-section {
+            flex-direction: column;
+            text-align: center;
+        }
+        .hero-text {
+            text-align: center;
+        }
     }
 
  </style>
