@@ -19,13 +19,15 @@
 <!--------------------------------------------------------- Body-->
 <body>
     <section>
-        <!--profile pic-->
-        <div style="display: flex; justify-content: center; margin-top: 80px;">
-            <img src="images/profile.jpeg" class="profile-photo">
+        <!--profile pic and welcome message-->
+        <div class="hero-section">
+            <div class="hero-text">
+                <p class="title">Hi, I'm Nicolò. Welcome!</p>
+            </div>
+            <div class="hero-image">
+                <img src="images/profile.jpeg" class="profile-photo">
+            </div>
         </div>
-
-        <!--welcome message-->
-        <p class="subtitle">Hi, I'm Nicolò. Welcome to my website!</p>
             
         <!-------------------------------------------------------------------------------------------- Contacts -->
         <section class="iconsSection">
@@ -171,6 +173,36 @@ l  ~ヽ
     gap: 30px;
     }
 
+    .hero-section {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        margin-top: 80px;
+        margin-bottom: 40px;
+        padding: 0 40px;
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-text {
+        flex: 1;
+        text-align: left;
+        max-width: 500px;
+    }
+
+    .hero-text .title {
+        font-size: 2.4em;
+        margin-top: 0;
+        margin-bottom: 0;
+        text-align: left;
+    }
+
+    .hero-image {
+        flex-shrink: 0;
+    }
+
     .profile-photo {
         width: 200px;
         height: 200px;
@@ -179,6 +211,16 @@ l  ~ヽ
         border: 3px solid var(--border-color);
         box-shadow: 0 4px 16px var(--border-color);
         transition: all 0.3s ease;
+    }
+
+    @media (max-width: 768px) {
+        .hero-section {
+            flex-direction: column;
+            text-align: center;
+        }
+        .hero-text {
+            text-align: center;
+        }
     }
 
  </style>
