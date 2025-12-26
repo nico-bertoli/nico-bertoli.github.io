@@ -23,7 +23,9 @@
         <div class="hero-section">
             <div class="hero-text">
                 <p class="title">Hi, I'm Nicolò</p>
-                <p class="subtitle">Welcome to my website!</p>
+                <p class="hero-presentation">
+                    I'm a C++ developer with experience in the game industry. I'm currently building Qt applications.
+                </p>
             </div>
             <div class="hero-image">
                 <img src="images/profile.jpeg" class="profile-photo">
@@ -115,6 +117,7 @@ l  ~ヽ
 
 <style>
 
+/*------------------------------------- image button*/
 .image-button {
     background-color: var(--bg-secondary);
     position: relative;
@@ -168,12 +171,14 @@ l  ~ヽ
          outline-offset: 3px;
      }
 
+/*------------------------------------- grid container*/
     .grid-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 30px;
     }
 
+/*------------------------------------- hero section*/
     .hero-section {
         display: flex;
         align-items: center;
@@ -200,15 +205,19 @@ l  ~ヽ
         text-align: left;
     }
 
-    .hero-text .subtitle {
-        margin-top: 0;
+    .hero-presentation {
+        font-size: 1.1rem;
+        line-height: 1.6;
+        color: var(--text-secondary);
+        margin-top: 1rem;
+        margin-bottom: 0;
         text-align: left;
     }
 
     .hero-image {
         flex-shrink: 0;
     }
-
+    /*------------------------------------- profile photo*/
     .profile-photo {
         width: 200px;
         height: 200px;
