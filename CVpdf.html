@@ -15,13 +15,26 @@
     Hello! You can also view my CV on my <a href="CV.html">website</a>.
  </p>
 
+
+
+
+
+
+
+
+
+ 
+
+
+
+
 <!--------------------------------------------------------- Title-->
 <body>
     <section>
         <br />
         <div class="text-center">
             <h1 class="title">Nicolò Bertoli</h1>
-            <h2 class="subtitle">C++ and C# Developer</h2>
+            <h2 class="subtitle">C++ Developer</h2>
         </div>
     
         <!--------------------------------- top icons -->
@@ -71,7 +84,7 @@
             </section>
         </section>
 
-    <!--------------------------------- about me
+    <!--------------------------------- about me -->
     <div class="sectionTitle">
         <div class="allignContentTextAndIcon">
             <img src="images/img-single.png" class="educationIcon">
@@ -83,8 +96,8 @@
 
 <section class = "section" style="padding-left: 20px; ">
     <p>
-        I am a C++ developer oriented toward graphics. I hold a bachelor's degree in Computer Science and began my career in mobile game
-        development, before transitioning into C++ development.
+        I began my career in the game industry developing mobile games using Unity, C#, and C++.<br>
+        I’m currently developing graphics Qt applications on Linux for the autonomous driving sector.
     </p>
 </section>
     
@@ -102,7 +115,7 @@
             <bigText>Object-Oriented Programming</bigText>
             <ul>
                 <li>C++ up to standard 20 (<a href="Portfolio.html">see personal projects</a>)</li>
-                <li>C# (<a href="PortfolioCS.html">see personal projects</a>)</li>
+                <li>C#</li>
                 <li>SOLID principles, design patterns</li>
                 <li>Data structures, algorithms</li>
             </ul>
@@ -157,7 +170,7 @@
                 <div>Sept 2025 - Current</div>
             </div>
         </div>
-        <section style="background-color: #212228; border-radius: 15px; margin:4px;
+        <section style="background-color: var(--bg-primary); border-radius: 15px; margin:4px;
         padding-top: 10px; padding-bottom: 1px;">
             <div class="column">
                 <ul>
@@ -182,7 +195,7 @@
                 <div>Mar 2023 - Sept 2025 (2 yrs 6 mos)</div>
             </div>
         </div>
-        <section style="background-color: #212228; border-radius: 15px; margin:4px;
+        <section style="background-color: var(--bg-primary); border-radius: 15px; margin:4px;
         padding-top: 10px; padding-bottom: 1px;">
             <div class="column">
                 <ul>
@@ -204,7 +217,6 @@
         </div>
     </div>  
     
-    <!-- Miniclip -->
     <section class="section">
         <table class="titleTable">
             <tr>
@@ -252,9 +264,8 @@
         </div>
 
         <section class = "section" style="padding-left: 20px; ">
-            <p>I have delivered numerous personal projects using both C++ and C#. Feel free to explore my
-                 <a href="Portfolio.html">Portfolio</a> and <a href="PortfolioCS.html">C# portfolio</a>
-                to see examples of my work.</p>
+            <p>I have delivered numerous personal projects, feel free to explore my
+                 <a href="Portfolio.html">Portfolio</a></p>
         </section>
     
     
@@ -287,13 +298,14 @@
     /* ------------------------ sections */
 
     .section {
-        background-color: #363844;
+        background-color: var(--bg-secondary);
         padding: 0px;
         gap: 20px;
         border-radius: 15px;
-        border: 3px solid #363844; /* controlls border size */
+        border: 2px solid var(--border-color);
         margin-top: 5px;
         text-align: left;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
     }
 
     /* ------------------------ skills columns */
@@ -336,9 +348,8 @@
         table-layout: fixed;
         overflow: hidden;
         border-radius: 15px;
-        background-color: #212228;
-        
-        margin:3px; /*controlls border size*/
+        background-color: var(--bg-primary);
+        margin:3px;
     }
 
     td {
@@ -354,12 +365,10 @@
     /* ---------------------------------------------- Custom Line --*/
 
     hr.customLine {
-    border: none; /* Remove the default border */
-
-    /* very light background version */
-    border-top: solid #212228; 
-    background-color: #212228;
-    
-    height:2px;
+    border: none;
+    border-top: 2px solid var(--divider-color); 
+    background-color: var(--divider-color);
+    height: 2px;
+    margin: 2rem 0;
     }
 </style>
