@@ -132,6 +132,13 @@ body {
   color: var(--section-title-color);
 }
 
+/* Colorize icons in section titles to match the text color */
+.sectionTitle .icon,
+.sectionTitle .educationIcon,
+.sectionTitle .portfolioIcon {
+  filter: brightness(0) saturate(100%) invert(67%) sepia(100%) saturate(2000%) hue-rotate(160deg);
+}
+
 .allignContentTextAndIcon {
   white-space: nowrap; /* prevents text from going on new line */
   color: var(--text-primary);
