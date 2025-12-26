@@ -4,24 +4,22 @@
 :root { 
   --bg-primary: #0f1117;
   --bg-secondary: #1a1d26;
-  --bg-tertiary: #252932;
-  --bg-hover: #2e323c; 
 
   --accent-primary: #00d9ff;
-  --accent-hover: #00b8d9;
-  --accent-light: #33e0ff;
-  --accent-glow: rgba(0, 217, 255, 0.25);
+  --accent-glow: rgba(0, 217, 255, 0.473);
 
   --text-primary: #f0f4f8;
   --text-secondary: #c8d1dc;
   --text-muted: #8892a0;
-  --text-accent: #00d9ff;
+
+  --section-title-color: #00d9ff;
+  --link-color: #ac6cff;
+  --link-hover: #af9bff;
 
   --border-color: #2e323c;
   --divider-color: #33394b;
 
   --navbar-bg: #151821;
-  --button-bg: #1a1d26;
   --button-hover: rgba(0, 217, 255, 0.12);
 }
 
@@ -113,8 +111,8 @@ body {
 }
 
 .educationIcon{
-  width: 26px;
-  height: 26px;
+  width: 30px;
+  height: 30px;
   margin-right: 4px;
   padding-top:2px;
 }
@@ -128,6 +126,10 @@ body {
 
 .iconText {
   display: inline; /* Keep text on the same line */
+}
+
+.sectionTitle h4.iconText {
+  color: var(--section-title-color);
 }
 
 .allignContentTextAndIcon {
@@ -148,18 +150,18 @@ body {
 /* ------------------------ hyperlinks */
 
 a {
-  color: var(--accent-primary); 
+  color: var(--link-color); 
   text-decoration: underline;
   text-decoration-thickness: 1px;
   transition: color 0.2s ease, text-decoration 0.2s ease;
 }
 a:hover {
-  color: var(--accent-light);
+  color: var(--link-hover);
   text-decoration: underline;
   text-decoration-thickness: 2px;
 }
 a:focus {
-  outline: 2px solid var(--accent-primary);
+  outline: 2px solid var(--link-color);
   outline-offset: 2px;
   border-radius: 2px;
 }
@@ -277,6 +279,8 @@ a:focus {
     gameName{
         font-size: 1.5rem;
         font-weight: 500;
+        font-weight: bold;
+        color: var(--section-title-color);
     }
 
     .titleContainer {
