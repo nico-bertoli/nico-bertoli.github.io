@@ -103,6 +103,24 @@ body {
   padding-top:2px;
 }
 
+.aboutMeIcon {
+  width: 25px;
+  height: 23px;
+  margin-right: 4px;
+}
+
+.skillIcon {
+  width: 25px;
+  height: 25px;
+  margin-right: 4px;
+}
+
+.workIcon {
+  width: 24px;
+  height: 25px;
+  margin-right: 8px;
+}
+
 .locationIcon {
   width: 19px;
   height: 23px;
@@ -111,17 +129,15 @@ body {
 }
 
 .educationIcon{
-  width: 30px;
+  width: 32px;
   height: 30px;
   margin-right: 4px;
-  padding-top:2px;
 }
 
 .portfolioIcon{
   width: 24px;
   height: 26px;
   margin-right: 4px;
-  padding-top:5px;
 }
 
 .iconText {
@@ -134,6 +150,9 @@ body {
 
 /* Colorize icons in section titles to match the text color */
 .sectionTitle .icon,
+.sectionTitle .aboutMeIcon,
+.sectionTitle .skillIcon,
+.sectionTitle .workIcon,  
 .sectionTitle .educationIcon,
 .sectionTitle .portfolioIcon {
   filter: brightness(0) saturate(100%) invert(67%) sepia(100%) saturate(2000%) hue-rotate(160deg);
