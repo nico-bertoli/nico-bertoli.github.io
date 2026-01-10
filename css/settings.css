@@ -5,9 +5,9 @@
   --bg-primary: #0f1117;
   --bg-secondary: #1a1d26;
 
-  --section-title-color: #87ff83;
-  --accent-primary: #87ff83;
-  --accent-glow: #87ff83;
+  --section-title-color: #ffffff;
+  --accent-primary: #4d81ff;
+  --accent-glow: #4d81ff;
 
   --text-primary: #f0f4f8;
   --text-secondary: #c8d1dc;
@@ -93,52 +93,6 @@ body {
   font-weight: 500; 
 }
 
-/*------------------------------------- icons */
-.icon {
-  display: inline-block;
-  width: 23px; /* Custom size for icons */
-  height: 23px; /* Custom size for icons */
-  vertical-align: middle; /* Align icons vertically in the middle */
-  margin-right: 4px; /* Space between icon and text */
-  padding-top:2px;
-}
-
-.aboutMeIcon {
-  width: 25px;
-  height: 23px;
-  margin-right: 4px;
-}
-
-.skillIcon {
-  width: 25px;
-  height: 25px;
-  margin-right: 4px;
-}
-
-.workIcon {
-  width: 24px;
-  height: 25px;
-  margin-right: 8px;
-}
-
-.locationIcon {
-  width: 19px;
-  height: 23px;
-  margin-right: 4px;
-  padding-top:2px;
-}
-
-.educationIcon{
-  width: 32px;
-  height: 30px;
-  margin-right: 4px;
-}
-
-.portfolioIcon{
-  width: 24px;
-  height: 26px;
-  margin-right: 4px;
-}
 
 .iconText {
   display: inline; /* Keep text on the same line */
@@ -148,22 +102,14 @@ body {
   color: var(--section-title-color);
 }
 
-.sectionTitle .icon,
-.sectionTitle .aboutMeIcon,
-.sectionTitle .skillIcon,
-.sectionTitle .workIcon,  
-.sectionTitle .educationIcon,
-.sectionTitle .portfolioIcon {
-  filter: brightness(0) saturate(100%) invert(54%) sepia(100%) saturate(260%) hue-rotate(89deg) brightness(118%); /* icons color */
-}
-
 .allignContentTextAndIcon {
   white-space: nowrap; /* prevents text from going on new line */
   color: var(--text-primary);
   text-align: center;
   display: flex;
   align-items: center;
-  margin:0;
+  gap: 4px; /* spacing between emoji and text */
+  /* margin:0; */
 }
 
 .portfolio-two-columns-dotlist {
