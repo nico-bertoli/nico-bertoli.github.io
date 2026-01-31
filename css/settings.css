@@ -17,6 +17,9 @@
   --navbar-bg: var(--panel);
   --button: var(--bg-primary);
 
+  /* ---------------------- image effects */
+  --image-blur: 1px;
+
   /* ---------------------- shadows size (x shift, y shift, blr radius) */ 
   --shadow-size: 0 4px 8px; /* base shadow */
   --button-big-shadow-hovered: 0 8px 24px;
