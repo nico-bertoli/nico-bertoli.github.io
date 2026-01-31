@@ -185,8 +185,7 @@ a:focus {
   box-shadow: var(--button-small-shadow-hovered) var(--shadow-color-hovered);
 }
 .navbar a:focus {
-  outline-offset: 2px;
-  box-shadow: 0 0 0 3px var(--shadow-color-hovered);
+  outline: none;
 }
 
 /*------------------------------------- resize window*/
