@@ -1,26 +1,26 @@
-/* ============================================
-   COLOR PALETTE - CSS Custom Properties
-   ============================================ */
+/* color palette */
 :root { 
-  --bg-primary: #0f1117;
-  --bg-secondary: #1a1d26;
+  --bg-primary: #F5F5F7;
+  --panel: #FFFFFF;
 
-  --section-title-color: #ffffff;
-  --accent-primary: #4d81ff;
-  --accent-glow: #4d81ff;
+  --text: #1f1d1f;
+  --text-muted: #727076;
+  --section-title-color: --text; /*cv and portfolio titles*/
+  --link-color: #155AE4;
+  --link-hover: #00349b;
 
-  --text-primary: #f0f4f8;
-  --text-secondary: #c8d1dc;
-  --text-muted: #8892a0;
+  --shadow-color: #afafaf;
+  --shadow-color-hovered: #888888;
 
-  --link-color: #4d81ff;
-  --link-hover: #3459b3;
+  --divider-color: #dedee4;
 
-  --border-color: #2e323c;
-  --divider-color: #33394b;
+  --navbar-bg: var(--panel);
+  --button: var(--bg-primary);
 
-  --navbar-bg: #151821;
-  --button-hover: rgba(0, 217, 255, 0.12);
+  /* ---------------------- shadows size (x shift, y shift, blr radius) */ 
+  --shadow-size: 0 4px 8px; /* base shadow */
+  --button-big-shadow-hovered: 0 8px 24px;
+  --button-small-shadow-hovered: 0 2px 8px;
 }
 
 @media (min-width: 768px) {
@@ -30,7 +30,6 @@
 }
 
 /* .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem var(--text-primary), 0 0 0 0.25rem var(--accent-primary);
 } */
 
 html {
@@ -42,7 +41,7 @@ html {
 /*------------------------------------- general */
 
 body {
-  color: var(--text-primary);
+  color: var(--text);
   background-color: var(--bg-primary);
   transition: background-color 0.3s ease, color 0.3s ease;
 
@@ -64,14 +63,14 @@ body {
 }
 
 .iconsSection {
-  background-color: var(--bg-secondary);
+  background-color: var(--panel);
   padding-left: 40px;
   padding-right: 40px;
   padding-top:15px;
   padding-bottom: 15px;
   border-radius: 15px;
-  border: 1px solid var(--border-color);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  border: none;
+  box-shadow: var(--shadow-size) var(--shadow-color);
 }
 
 /*------------------------------------- title */
@@ -104,7 +103,7 @@ body {
 
 .allignContentTextAndIcon {
   white-space: nowrap;
-  color: var(--text-primary);
+  color: var(--text);
   text-align: center;
   display: flex;
   align-items: center;
@@ -149,44 +148,42 @@ a:focus {
   z-index: 1000;
   display: flex;
   align-items: center;
-  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
+  box-shadow: var(--shadow-size) var(--shadow-color);
   backdrop-filter: blur(10px);
 }
 
 .navbar a {
   display: flex;
   align-items: center;
-  color: var(--text-primary);
+  color: var(--text);
   text-align: center;
   padding: 11px 16px;
   text-decoration: none;
-  background: var(--bg-primary);
+  background: var(--button);
   border-radius: 15px;
   margin-right: 10px;
   font-size: 20px;
   transition: all 0.3s ease;
-  border: 1px solid transparent;
+  border: none;
 }
 
 .navbar p {
   margin: 0;
   margin-right: 20px;
   font-size: 20px;
-  color: var(--text-primary);
+  color: var(--text);
   font-weight: 600;
 }
 
 .navbar a:hover {
-  background-color: var(--button-hover);
-  border-color: var(--accent-primary);
+  background-color: var(--button);
   border-radius: 15px;
   transform: scale(1.03);
-  box-shadow: 0 4px 12px var(--accent-glow);
+  box-shadow: var(--button-small-shadow-hovered) var(--shadow-color-hovered);
 }
 .navbar a:focus {
-  outline: 2px solid var(--accent-primary);
   outline-offset: 2px;
-  box-shadow: 0 0 0 3px var(--accent-glow);
+  box-shadow: 0 0 0 3px var(--shadow-color-hovered);
 }
 
 /*------------------------------------- resize window*/
@@ -297,14 +294,14 @@ a:focus {
         max-width: 100%; 
         background: var(--bg-primary); 
         border-radius: 15px;
-        border: 1px solid var(--border-color);
-        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+        border: none;
+        box-shadow: var(--shadow-size) var(--shadow-color);
         transition: all 0.3s ease;
     }
 
     .videoContainer:hover {
-        border-color: var(--accent-primary);
-        box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4), 0 0 20px var(--accent-glow);
+        border: none;
+        box-shadow: var(--shadow-size) var(--shadow-color), var(--button-big-shadow-hovered) var(--shadow-color-hovered);
         transform: scale(1.01);
     }
 

@@ -46,7 +46,7 @@
     
                 <!-- phone icon -->
                 <div class="allignContentTextAndIcon">
-                    <span class="iconText">☎️ (+39) 334 1308720</span>
+                    <span class="iconText">📞 (+39) 334 1308720</span>
                 </div>
     
                 <!-- position icon -->
@@ -118,7 +118,7 @@ l  ~ヽ
 
 /*------------------------------------- image button*/
 .image-button {
-    background-color: var(--bg-secondary);
+    background-color: var(--panel);
     position: relative;
     display: inline-block;
     padding: 0px;
@@ -128,12 +128,12 @@ l  ~ヽ
     overflow:hidden;
     text-align: center;
     font-weight: bold;
-    color: var(--text-primary);
+    color: var(--text);
     height: 400px;
     width: 100%;
     transition: all 0.3s ease;
-    border: 2px solid var(--border-color);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    border: none;
+    box-shadow: var(--shadow-size) var(--shadow-color);
 }
 
 .image-button img {
@@ -151,21 +151,19 @@ l  ~ヽ
         position: absolute;
         bottom: 0px;
         width: 100%;
-        background-color: var(--bg-secondary);
+        background-color: var(--panel);
         padding: 12px 0;
         font-size: 1.2rem;
-        border-top: 1px solid var(--border-color);
+        border-top: none;
     }
 
     .image-button:hover {
-        color: var(--text-primary);
-        border-color: var(--accent-primary);
-        transform: scale(1.03);
-        box-shadow: 0 8px 24px var(--accent-glow);
+        color: var(--text);
+        transform: scale(1.015);
+        box-shadow: var(--button-big-shadow-hovered) var(--shadow-color-hovered);
      }
      
      .image-button:focus {
-         outline: 3px solid var(--accent-primary);
          outline-offset: 3px;
      }
 
@@ -206,7 +204,7 @@ l  ~ヽ
     .hero-presentation {
         font-size: 1.1rem;
         line-height: 1.6;
-        color: var(--text-secondary);
+        color: var(--text);
         margin-top: 1rem;
         margin-bottom: 0;
         text-align: left;
@@ -221,8 +219,8 @@ l  ~ヽ
         height: 200px;
         border-radius: 50%;
         object-fit: cover;
-        border: 3px solid var(--border-color);
-        box-shadow: 0 4px 16px var(--border-color);
+        border: none;
+        box-shadow: 0 4px 16px var(--shadow-color);
         transition: all 0.3s ease;
     }
 
